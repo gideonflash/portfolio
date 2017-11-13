@@ -19,20 +19,13 @@ injectGlobal`
   html,
   body {
     margin: 0px;
+    padding: 0;
     font-family:'Roboto', sans-serif;
+    background-color: #EDEEE8;
   }
 
-  body {
-    background-color: #FFFFFF;
-  }
 
-  p,
-  label {
-    font-size: 10px;
-  }
 
-  a{
-    text-decoration: none;
-		color: #212121;
-  }
+
+
 `;

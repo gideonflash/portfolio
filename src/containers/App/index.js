@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Header from "../../components/Header";
+
+import MainPage from "../MainPage";
 
 class Main extends Component {
 	render() {
 		return (
 			<div>
-				<Header />
-				wrapper
+				<MainPage />
 			</div>
 		);
 	}
