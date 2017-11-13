@@ -15,6 +15,6 @@ injectGlobal`
     margin: 0px;
     padding: 0px;
     font-family:'Roboto', sans-serif;
-    background-color: red;
+    background-color: #EDEEE8;
   }
 `;
