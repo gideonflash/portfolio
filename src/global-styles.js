@@ -8,24 +8,13 @@ WebFont.load({
 		families: ["Roboto:300,400,500", "sans-serif"]
 	}
 });
-WebFont.load({
-	custom: {
-		families: ["Campton-BoldDEMO", "Campton-LightDEMO"],
-		urls: ["./Fonts/Campton-BoldDEMO", "./Fonts/Campton-LightDEMO"]
-	}
-});
 
 injectGlobal`
   html,
   body {
     margin: 0px;
-    padding: 0;
+    padding: 0px;
     font-family:'Roboto', sans-serif;
-    background-color: #EDEEE8;
+    background-color: red;
   }
-
-
-
-
-
 `;
