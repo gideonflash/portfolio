@@ -16,6 +16,7 @@ const Section = styled.div`
 	display: grid;
 	grid-template-columns: 1fr;
 	justify-items: center;
+	width: 1000px;
 `;
 class MainPage extends Component {
 	render() {
