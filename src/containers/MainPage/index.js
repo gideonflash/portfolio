@@ -2,6 +2,12 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import LandingPageNavigation from "../../components/Header";
 import SectionTop from "../SectionOne";
+import SectionTwo from "../SectionTwo";
+import SectionThree from "../SectionThree";
+import SectionFour from "../SectionFour";
+import SectionFive from "../SectionFive";
+import SectionSix from "../SectionSix";
+import Footer from "../Footer";
 
 const Wrapper = styled.div`
 	background-color: black;
@@ -18,6 +24,12 @@ class MainPage extends Component {
 				<LandingPageNavigation />
 				<Section>
 					<SectionTop />
+					<SectionTwo />
+					<SectionThree />
+					<SectionFour />
+					<SectionFive />
+					<SectionSix />
+					<Footer />
 				</Section>
 			</Wrapper>
 		);
