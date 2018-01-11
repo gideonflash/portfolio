@@ -5,7 +5,7 @@ import MainPage from "../MainPage";
 const Line = styled.div`
   position: fixed;
   z-index: 0;
-  top: 0;
+  top: 28px;
   bottom: 0;
   height: 300px;
   left: 10%;
@@ -14,7 +14,7 @@ const Line = styled.div`
 const Line2 = styled.div`
   position: fixed;
   z-index: 0;
-  top: 0;
+  top: 28px;
   bottom: 0;
   background-color: red;
   height: 300px;
@@ -24,7 +24,7 @@ const Line2 = styled.div`
 const Line3 = styled.div`
   position: fixed;
   z-index: 0;
-  top: 0;
+  top: 28px;
   bottom: 0;
   background-color: red;
   height: 300px;
@@ -34,7 +34,7 @@ const Line3 = styled.div`
 const Line4 = styled.div`
   position: fixed;
   z-index: 0;
-  top: 0;
+  top: 28px;
   bottom: 0;
   background-color: red;
   height: 300px;
@@ -44,7 +44,7 @@ const Line4 = styled.div`
 const Line5 = styled.div`
   position: fixed;
   z-index: 0;
-  top: 0;
+  top: 28px;
   bottom: 0;
   background-color: red;
   height: 300px;
@@ -54,7 +54,7 @@ const Line5 = styled.div`
 const Line6 = styled.div`
   position: fixed;
   z-index: 0;
-  top: 0;
+  top: 28px;
   bottom: 0;
   background-color: red;
   height: 300px;
@@ -64,7 +64,7 @@ const Line6 = styled.div`
 const Line7 = styled.div`
   position: fixed;
   z-index: 0;
-  top: 0;
+  top: 28px;
   bottom: 0;
   background-color: red;
   height: 300px;
@@ -74,7 +74,7 @@ const Line7 = styled.div`
 const Line8 = styled.div`
   position: fixed;
   z-index: 0;
-  top: 0;
+  top: 28px;
   bottom: 0;
   background-color: red;
   height: 300px;
@@ -84,7 +84,7 @@ const Line8 = styled.div`
 const Line9 = styled.div`
   position: fixed;
   z-index: 0;
-  top: 0;
+  top: 28px;
   bottom: 0;
   background-color: red;
   height: 300px;
@@ -92,10 +92,15 @@ const Line9 = styled.div`
   border: 1px solid #5499b8;
 `;
 
+const AppWrapper = styled.div`
+  margin: 28px;
+  background-color: #60a8c8;
+`;
+
 class Main extends Component {
   render() {
     return (
-      <div>
+      <AppWrapper>
         <Line />
         <Line2 />
         <Line3 />
@@ -106,7 +111,7 @@ class Main extends Component {
         <Line8 />
         <Line9 />
         <MainPage />
-      </div>
+      </AppWrapper>
     );
   }
 }
