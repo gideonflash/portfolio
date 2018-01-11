@@ -10,31 +10,40 @@ import SectionSix from "../SectionSix";
 import Footer from "../Footer";
 
 const Wrapper = styled.div`
-	background-color: black;
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: block;
+  position: relative;
+  z-index: 1;
+  padding: 0;
+  overflow: hidden;
 `;
 const Section = styled.div`
-	display: grid;
-	grid-template-columns: 1fr;
-	justify-items: center;
-	width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  width: 1000px;
 `;
+
 class MainPage extends Component {
-	render() {
-		return (
-			<Wrapper>
-				<LandingPageNavigation />
-				<Section>
-					<SectionTop />
-					<SectionTwo />
-					<SectionThree />
-					<SectionFour />
-					<SectionFive />
-					<SectionSix />
-					<Footer />
-				</Section>
-			</Wrapper>
-		);
-	}
+  render() {
+    return (
+      <Wrapper>
+        <LandingPageNavigation />
+
+        <Section>
+          <SectionTop />
+          <SectionTwo />
+          <SectionThree />
+          <SectionFour />
+          <SectionFive />
+          <SectionSix />
+          <Footer />
+        </Section>
+      </Wrapper>
+    );
+  }
 }
 
 export default MainPage;
