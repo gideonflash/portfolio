@@ -5,7 +5,8 @@ import Title from "../../components/LandingMainText";
 import NameAndSkills from "../../components/NameHeaderSection";
 
 const SectionOne = styled.div`
-  width: 1000px;
+  width: 1024px;
+  height: 100%;
 `;
 
 class SectionTop extends Component {

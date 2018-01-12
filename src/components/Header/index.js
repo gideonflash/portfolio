@@ -19,6 +19,8 @@ const BrandNavigation = styled.a`
   font-size: 21px;
   color: #ffffff;
   letter-spacing: 0;
+  margin-top: 22px;
+  margin-left: 101px;
 `;
 const Tablinks = styled.a`
   display: block;
@@ -28,12 +30,20 @@ const Tablinks = styled.a`
   text-decoration: none;
   /* PROFILE: */
   font-family: FuturaBT-Medium;
-  font-size: 12px;
+  font-size: 10px;
   color: #3f2f23;
   letter-spacing: 1.4px;
   &:hover {
-    background-color: red;
+    background-color: #b4211e;
+    color: #ffffff;
   }
+`;
+
+const Experiance = styled.p`
+  margin-right: 141px;
+`;
+const Profile = styled.p`
+  margin-right: 48px;
 `;
 
 class LandingPageNavigation extends Component {
@@ -43,13 +53,14 @@ class LandingPageNavigation extends Component {
         <Nav>
           <BrandNavigation>Gideon</BrandNavigation>
           <ListNavigation>
-            <Tablinks>Profile</Tablinks>
+            <Tablinks>
+              <Experiance>EXPERIANCE</Experiance>
+            </Tablinks>
           </ListNavigation>
           <ListNavigation>
-            <Tablinks>Projects</Tablinks>
-          </ListNavigation>
-          <ListNavigation>
-            <Tablinks>Experiance</Tablinks>
+            <Tablinks>
+              <Profile>PROFILE</Profile>
+            </Tablinks>
           </ListNavigation>
         </Nav>
       </div>

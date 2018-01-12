@@ -10,6 +10,7 @@ const MainText = styled.h1`
   line-height: 72px;
   color: #443d3d;
   font-weight: normal;
+  line-height: 72px;
 `;
 const Red = styled.h1`
   color: #b4211e;
@@ -19,6 +20,7 @@ const Red = styled.h1`
   letter-spacing: 0;
   line-height: 72px;
   font-weight: normal;
+  margin: 0;
 `;
 const White = styled.h1`
   color: #ffffff;
@@ -28,15 +30,18 @@ const White = styled.h1`
   letter-spacing: 0;
   line-height: 72px;
   font-weight: normal;
+  margin: 0;
 `;
 
 class Title extends Component {
   render() {
     return (
       <LandingMainText>
+        <MainText />
         <MainText>
-          PRODUCT<Red> DESIGNER </Red>
-          <White>AND</White>FRONT-END DEVLOPER
+          PRODUCT<br /> <Red> DESIGNER </Red>
+          <White> AND </White>
+          <br />FRONT-END DEVLOPER
         </MainText>
       </LandingMainText>
     );
