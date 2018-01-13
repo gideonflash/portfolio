@@ -101,7 +101,6 @@ const SocialListItems = styled.li`
   display: inline-block;
   margin-right: 20px;
 `;
-const SocialImg = styled.img``;
 
 class SectionTwo extends Component {
   render() {
