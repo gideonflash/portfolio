@@ -10,11 +10,11 @@ const Section = styled.div`
   justify-items: center;
 `;
 
-const MainPage = () => (
+const CashkachinPage = () => (
   <Section>
     <SectionTop />
     <SectionTwo />
     <SectionThree />
   </Section>
 );
-export default MainPage;
+export default CashkachinPage;

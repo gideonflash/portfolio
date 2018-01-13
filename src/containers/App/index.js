@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import MainPage from "../MainPage";
+import AppRoutes from "../Routes";
 import Footer from "../Footer";
 import BackgroundLines from "../../components/BackgroundLines";
 
@@ -14,7 +14,7 @@ const Main = () => (
   <div>
     <AppWrapper>
       <BackgroundLines />
-      <MainPage />
+      <AppRoutes />
     </AppWrapper>
     <Footer />
   </div>
