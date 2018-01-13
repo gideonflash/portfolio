@@ -24,7 +24,7 @@ const LandingProjectFour = () => (
       <ProjectAboutLanding />
     </ProjectContainer>
     <ProjectTitleLanding title="ASHLEENLESTER" />
-    <ProjectCaseStudyLinkLanding />
+    <ProjectCaseStudyLinkLanding projectNumber="Project4" />
   </SectionWrapper>
 );
 

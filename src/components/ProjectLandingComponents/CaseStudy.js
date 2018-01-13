@@ -52,10 +52,10 @@ const ViewCaseStudyContianer = styled.div`
 `;
 const Img = styled.img``;
 
-const ProjectCaseStudyLinkLanding = () => (
+const ProjectCaseStudyLinkLanding = props => (
   <ViewCaseStudyContianer>
     <BackdropContainer>
-      <BackdropText>Projects</BackdropText>
+      <BackdropText>{props.projectNumber}</BackdropText>
     </BackdropContainer>
     <LinkContianer>
       <Grid>
