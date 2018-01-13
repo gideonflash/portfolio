@@ -3,6 +3,7 @@ import styled from "styled-components";
 import LandingProjectOne from "../../components/ProjectOne";
 import LandingProjectTwo from "../../components/ProjectTwo";
 import LandingProjectThree from "../../components/ProjectThree";
+import LandingProjectFour from "../../components/ProjectFour";
 
 const Section = styled.div`
   width: 1024px;
@@ -34,6 +35,7 @@ const SectionThree = () => (
     <LandingProjectOne />
     <LandingProjectTwo />
     <LandingProjectThree />
+    <LandingProjectFour />
   </Section>
 );
 
