@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import LandingProjects from "../../components/Project";
+import LandingProjectOne from "../../components/ProjectOne";
 
 const Section = styled.div`
   width: 1024px;
@@ -9,7 +9,7 @@ const Section = styled.div`
 
 const SectionThree = () => (
   <Section>
-    <LandingProjects />
+    <LandingProjectOne />
   </Section>
 );
 

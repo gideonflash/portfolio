@@ -193,7 +193,7 @@ const Header = styled.h1`
 
 const Img = styled.img``;
 
-const LandingProjects = () => (
+const LandingProjectTwo = () => (
   <SectionWrapper>
     <SubTitle>the good stuff</SubTitle>
     <Header>Projects</Header>
@@ -282,4 +282,4 @@ const LandingProjects = () => (
   </SectionWrapper>
 );
 
-export default LandingProjects;
+export default LandingProjectTwo;
