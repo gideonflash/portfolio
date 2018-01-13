@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import styled, { css } from "styled-components";
 import LinkedIn from "./images/LinkedIn";
 import GitHub from "./images/GitHub";
@@ -102,89 +102,82 @@ const SocialListItems = styled.li`
   margin-right: 20px;
 `;
 
-class SectionTwo extends Component {
-  render() {
-    return (
-      <Section>
-        <SectionTwoHeader>a snapshot view</SectionTwoHeader>
-        <SectionTwoContianer>
-          <ValuePropContianer>
-            <ValuePropText>
-              I would like to say<br /> something cool <br /> so sound super
-              smart
-            </ValuePropText>
-          </ValuePropContianer>
-          <ProfileTextContainer>
-            <ProfileText>
-              Subject as I can. I have been driven by the need to understand,
-              testing my learning and trying as hard as I can to disprove
-              evidence that I think is true as a way of discovering. Adopting
-              the mental models
-            </ProfileText>
-            <div>
-              <SkillsList>
-                <SkillsListItem dark>PRODUCT DESIGN</SkillsListItem>
-                <Slash>
-                  <SkillsListItem red>//</SkillsListItem>
-                </Slash>
-                <SkillsListItem>WEB AND MOBILE UI DESIGN</SkillsListItem>
-                <Slash>
-                  <SkillsListItem red>//</SkillsListItem>
-                </Slash>
-                <SkillsListItem dark>UI DEVELOPMENT</SkillsListItem>
-                <Slash>
-                  <SkillsListItem red>//</SkillsListItem>
-                </Slash>
-                <SkillsListItem>PROGRAMMING</SkillsListItem>
-                <br />
-                <SkillsListItem>SKETCH</SkillsListItem>
-                <Slash>
-                  <SkillsListItem red>//</SkillsListItem>
-                </Slash>
-                <SkillsListItem>PRINCIPLE & FLINTO</SkillsListItem>
-                <Slash>
-                  <SkillsListItem red>//</SkillsListItem>
-                </Slash>
-                <SkillsListItem dark>HTML, CSS, JAVSSCRIPT</SkillsListItem>
-                <Slash>
-                  <SkillsListItem red>//</SkillsListItem>
-                </Slash>
-                <SkillsListItem>NODE.JS & EXPRESS</SkillsListItem>
-                <Slash>
-                  <SkillsListItem red>//</SkillsListItem>
-                </Slash>
-                <SkillsListItem dark>
-                  REACT.JS, APPOLLO & GRAPHQL
-                </SkillsListItem>
-              </SkillsList>
-            </div>
-            <SocialContianer>
-              <SocialUl>
-                <SocialListItems>
-                  <LinkedIn />
-                </SocialListItems>
-                <SocialListItems>
-                  <GitHub />
-                </SocialListItems>
-                <SocialListItems>
-                  <Medium iconBackground="#443D3D" />
-                </SocialListItems>
-                <SocialListItems>
-                  <Dribble />
-                </SocialListItems>
-                <SocialListItems>
-                  <Behance />
-                </SocialListItems>
-              </SocialUl>
-            </SocialContianer>
-          </ProfileTextContainer>
-          <BackdropText>
-            <ProfileBackDropText>Profile</ProfileBackDropText>
-          </BackdropText>
-        </SectionTwoContianer>
-      </Section>
-    );
-  }
-}
+const SectionTwo = () => (
+  <Section>
+    <SectionTwoHeader>a snapshot view</SectionTwoHeader>
+    <SectionTwoContianer>
+      <ValuePropContianer>
+        <ValuePropText>
+          I would like to say<br /> something cool <br /> so sound super smart
+        </ValuePropText>
+      </ValuePropContianer>
+      <ProfileTextContainer>
+        <ProfileText>
+          Subject as I can. I have been driven by the need to understand,
+          testing my learning and trying as hard as I can to disprove evidence
+          that I think is true as a way of discovering. Adopting the mental
+          models
+        </ProfileText>
+        <div>
+          <SkillsList>
+            <SkillsListItem dark>PRODUCT DESIGN</SkillsListItem>
+            <Slash>
+              <SkillsListItem red>//</SkillsListItem>
+            </Slash>
+            <SkillsListItem>WEB AND MOBILE UI DESIGN</SkillsListItem>
+            <Slash>
+              <SkillsListItem red>//</SkillsListItem>
+            </Slash>
+            <SkillsListItem dark>UI DEVELOPMENT</SkillsListItem>
+            <Slash>
+              <SkillsListItem red>//</SkillsListItem>
+            </Slash>
+            <SkillsListItem>PROGRAMMING</SkillsListItem>
+            <br />
+            <SkillsListItem>SKETCH</SkillsListItem>
+            <Slash>
+              <SkillsListItem red>//</SkillsListItem>
+            </Slash>
+            <SkillsListItem>PRINCIPLE & FLINTO</SkillsListItem>
+            <Slash>
+              <SkillsListItem red>//</SkillsListItem>
+            </Slash>
+            <SkillsListItem dark>HTML, CSS, JAVSSCRIPT</SkillsListItem>
+            <Slash>
+              <SkillsListItem red>//</SkillsListItem>
+            </Slash>
+            <SkillsListItem>NODE.JS & EXPRESS</SkillsListItem>
+            <Slash>
+              <SkillsListItem red>//</SkillsListItem>
+            </Slash>
+            <SkillsListItem dark>REACT.JS, APPOLLO & GRAPHQL</SkillsListItem>
+          </SkillsList>
+        </div>
+        <SocialContianer>
+          <SocialUl>
+            <SocialListItems>
+              <LinkedIn />
+            </SocialListItems>
+            <SocialListItems>
+              <GitHub />
+            </SocialListItems>
+            <SocialListItems>
+              <Medium iconBackground="#443D3D" />
+            </SocialListItems>
+            <SocialListItems>
+              <Dribble />
+            </SocialListItems>
+            <SocialListItems>
+              <Behance />
+            </SocialListItems>
+          </SocialUl>
+        </SocialContianer>
+      </ProfileTextContainer>
+      <BackdropText>
+        <ProfileBackDropText>Profile</ProfileBackDropText>
+      </BackdropText>
+    </SectionTwoContianer>
+  </Section>
+);
 
 export default SectionTwo;
