@@ -35,10 +35,6 @@ class MainPage extends Component {
           <SectionTop />
           <SectionTwo />
           <SectionThree />
-          <SectionFour />
-          <SectionFive />
-          <SectionSix />
-          <Footer />
         </Section>
       </Wrapper>
     );
