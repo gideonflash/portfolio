@@ -10,6 +10,7 @@ import LandingProjectSix from "../../components/ProjectSix";
 const Section = styled.div`
   width: 1024px;
   height: 100%;
+  margin-top: 86px;
 `;
 const SubTle = styled.h2`
   font-family: GochiHand-Regular;
