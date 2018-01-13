@@ -8,6 +8,8 @@ import ProjectCaseStudyLinkLanding from "../ProjectLandingComponents/CaseStudy";
 
 const SectionWrapper = styled.div`
   display: grid;
+
+  margin-bottom: 228px;
 `;
 const ProjectContainer = styled.div`
   display: grid;

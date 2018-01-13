@@ -8,6 +8,8 @@ import ProjectCaseStudyLinkLanding from "../ProjectLandingComponents/CaseStudy";
 
 const SectionWrapper = styled.div`
   display: grid;
+  margin-top: 228px;
+  margin-bottom: 228px;
 `;
 const ProjectContainer = styled.div`
   display: grid;
@@ -21,7 +23,7 @@ const LandingProjectSix = () => (
       <RolesLandingList />
       <ProjectAboutLanding />
     </ProjectContainer>
-    <ProjectTitleLanding title="AI" />
+    <ProjectTitleLanding title="GENERAL ASSEMBLY" />
     <ProjectCaseStudyLinkLanding />
   </SectionWrapper>
 );
