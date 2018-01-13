@@ -1,7 +1,9 @@
 import React from "react";
 import styled from "styled-components";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import LandingPageNavigation from "../../components/Header";
 import MainPage from "../MainPage";
+import CashkachinPage from "../CashKachingPage";
 
 const Wrapper = styled.div`
   max-width: 100%;
@@ -17,7 +19,12 @@ const Wrapper = styled.div`
 const AppRoutes = () => (
   <Wrapper>
     <LandingPageNavigation />
-    <MainPage />
+    <Router>
+      <div>
+        <Route exact path="/" component={MainPage} />
+        <Route exact path="/cashkaching" component={CashkachinPage} />
+      </div>
+    </Router>
   </Wrapper>
 );
 export default AppRoutes;

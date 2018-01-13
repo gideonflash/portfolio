@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import Arrow from "./images/Arrow.svg";
 
@@ -36,7 +37,7 @@ const LinkLine = styled.span`
   /* Line 2 Copy 6: */
   box-shadow: 0 2px 22px rgba(0, 0, 0, 0.69);
 `;
-const ViewCaseStudyLink = styled.a`
+const ViewCaseStudyLink = styled(NavLink)`
   font-family: SanFranciscoText-Medium;
   font-size: 14px;
   color: #433d3d;
@@ -61,7 +62,7 @@ const ProjectCaseStudyLinkLanding = props => (
       <Grid>
         <LinkLine />
         <Img src={Arrow} />
-        <ViewCaseStudyLink>VIEW CASE STUDY</ViewCaseStudyLink>
+        <ViewCaseStudyLink to="/cashkaching">VIEW CASE STUDY</ViewCaseStudyLink>
       </Grid>
     </LinkContianer>
   </ViewCaseStudyContianer>

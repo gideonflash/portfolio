@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import styled from "styled-components";
 
 const Nav = styled.ul`
@@ -46,26 +46,22 @@ const Profile = styled.p`
   margin-right: 48px;
 `;
 
-class LandingPageNavigation extends Component {
-  render() {
-    return (
-      <div>
-        <Nav>
-          <BrandNavigation>Gideon</BrandNavigation>
-          <ListNavigation>
-            <Tablinks>
-              <Experiance>EXPERIANCE</Experiance>
-            </Tablinks>
-          </ListNavigation>
-          <ListNavigation>
-            <Tablinks>
-              <Profile>PROFILE</Profile>
-            </Tablinks>
-          </ListNavigation>
-        </Nav>
-      </div>
-    );
-  }
-}
+const LandingPageNavigation = () => (
+  <div>
+    <Nav>
+      <BrandNavigation>Gideon</BrandNavigation>
+      <ListNavigation>
+        <Tablinks>
+          <Experiance>EXPERIANCE</Experiance>
+        </Tablinks>
+      </ListNavigation>
+      <ListNavigation>
+        <Tablinks>
+          <Profile>PROFILE</Profile>
+        </Tablinks>
+      </ListNavigation>
+    </Nav>
+  </div>
+);
 
 export default LandingPageNavigation;
