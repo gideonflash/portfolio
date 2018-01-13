@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import LandingProjectOne from "../../components/ProjectOne";
-import LandingProjectTwo from "../../components/ProjectTwo";
-import LandingProjectThree from "../../components/ProjectThree";
-import LandingProjectFour from "../../components/ProjectFour";
-import LandingProjectFive from "../../components/ProjectFive";
-import LandingProjectSix from "../../components/ProjectSix";
+import LandingProjectOne from "../../../components/ProjectOne";
+import LandingProjectTwo from "../../../components/ProjectTwo";
+import LandingProjectThree from "../../../components/ProjectThree";
+import LandingProjectFour from "../../../components/ProjectFour";
+import LandingProjectFive from "../../../components/ProjectFive";
+import LandingProjectSix from "../../../components/ProjectSix";
 
 const Section = styled.div`
   width: 1024px;

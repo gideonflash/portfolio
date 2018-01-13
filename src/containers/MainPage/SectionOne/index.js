@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import WhatIDoSection from "../../components/WhatIDo";
-import Title from "../../components/LandingMainText";
-import NameAndSkills from "../../components/NameHeaderSection";
+import WhatIDoSection from "../../../components/WhatIDo";
+import Title from "../../../components/LandingMainText";
+import NameAndSkills from "../../../components/NameHeaderSection";
 
 const SectionOne = styled.div`
   width: 1024px;

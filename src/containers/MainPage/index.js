@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import styled from "styled-components";
 import LandingPageNavigation from "../../components/Header";
-import SectionTop from "../SectionOne";
-import SectionTwo from "../SectionTwo";
-import SectionThree from "../SectionThree";
+import SectionTop from "./SectionOne";
+import SectionTwo from "./SectionTwo";
+import SectionThree from "./SectionThree";
 
 const Wrapper = styled.div`
   max-width: 100%;
@@ -21,20 +21,15 @@ const Section = styled.div`
   justify-items: center;
 `;
 
-class MainPage extends Component {
-  render() {
-    return (
-      <Wrapper>
-        <LandingPageNavigation />
+const MainPage = () => (
+  <Wrapper>
+    <LandingPageNavigation />
 
-        <Section>
-          <SectionTop />
-          <SectionTwo />
-          <SectionThree />
-        </Section>
-      </Wrapper>
-    );
-  }
-}
-
+    <Section>
+      <SectionTop />
+      <SectionTwo />
+      <SectionThree />
+    </Section>
+  </Wrapper>
+);
 export default MainPage;
