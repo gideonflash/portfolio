@@ -175,6 +175,26 @@ const Grid = styled.div`
   grid-template-columns: 1fr 6% 1fr;
   align-items: center;
 `;
+const SubTitle = styled.h2`
+  /* the good stuff: */
+  font-family: GochiHand-Regular;
+  font-size: 20px;
+  color: #443d3d;
+  letter-spacing: 0;
+  margin: 0;
+  text-align: center;
+`;
+
+const Header = styled.h1`
+  /* Projects: */
+  font-family: Futura-Bold;
+  font-size: 35px;
+  color: #443d3d;
+  letter-spacing: 0;
+  margin: 0;
+  margin-top: 5px;
+  text-align: center;
+`;
 
 const Img = styled.img``;
 class SectionThree extends Component {
@@ -182,6 +202,8 @@ class SectionThree extends Component {
     return (
       <Section>
         <SectionWrapper>
+          <SubTitle>the good stuff</SubTitle>
+          <Header>Projects</Header>
           <ProjectContainer>
             <div>
               <div>
