@@ -9,11 +9,13 @@ import Dribble from "./images/Dribble";
 const Section = styled.div`
   width: 1024px;
   height: 100%;
+  margin-top: 100px;
 `;
 
 const SectionTwoContianer = styled.div`
   display: grid;
   grid-template-columns: 50% 50%;
+  margin-top: 115px;
 `;
 const ValuePropContianer = styled.div`
   z-index: 2;
@@ -30,6 +32,7 @@ const BackdropText = styled.div`
   grid-column-start: 1;
   grid-row-start: 1;
   z-index: 1;
+  display: grid;
 `;
 const SectionTwoHeader = styled.h1`
   font-family: GochiHand-Regular;
@@ -57,6 +60,7 @@ const ProfileText = styled.p`
 const SkillsList = styled.ul`
   list-style-type: none;
   padding-left: 0;
+  margin-top: 50px;
 `;
 
 const SkillsListItem = styled.li`
@@ -90,6 +94,8 @@ const ProfileBackDropText = styled.h3`
   color: #4183a1;
   letter-spacing: 0;
   margin: 0;
+  justify-self: center;
+  align-self: center;
 `;
 
 const SocialContianer = styled.div``;
@@ -112,6 +118,15 @@ const SectionTwo = () => (
         </ValuePropText>
       </ValuePropContianer>
       <ProfileTextContainer>
+        <ProfileText>
+          Subject as I can. I have been driven by the need to understand,
+          testing my learning and trying as hard as I can to disprove evidence
+          that I think is true as a way of discovering. Adopting the mental
+          models Subject as I can. I have been driven by the need to understand,
+          testing my learning and trying as hard as I can to disprove evidence
+          that I think is true as a way of discovering. Adopting the mental
+          models
+        </ProfileText>
         <ProfileText>
           Subject as I can. I have been driven by the need to understand,
           testing my learning and trying as hard as I can to disprove evidence
