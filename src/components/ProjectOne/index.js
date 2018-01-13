@@ -13,35 +13,15 @@ const ProjectContainer = styled.div`
   display: grid;
   grid-template-columns: 25% 37.5% 38%;
 `;
-const SubTle = styled.h2`
-  font-family: GochiHand-Regular;
-  font-size: 20px;
-  color: #443d3d;
-  letter-spacing: 0;
-  margin: 0;
-  text-align: center;
-`;
-const Header = styled.h1`
-  /* Projects: */
-  font-family: Futura-Bold;
-  font-size: 35px;
-  color: #443d3d;
-  letter-spacing: 0;
-  margin: 0;
-  margin-top: 5px;
-  text-align: center;
-`;
 
 const LandingProjectOne = () => (
   <SectionWrapper>
-    <SubTle>the good stuff</SubTle>
-    <Header>Projects</Header>
     <ProjectContainer>
       <ProjectTypeLanding />
       <RolesLandingList />
       <ProjectAboutLanding />
     </ProjectContainer>
-    <ProjectTitleLanding />
+    <ProjectTitleLanding title="VOGUEPAY" />
     <ProjectCaseStudyLinkLanding />
   </SectionWrapper>
 );

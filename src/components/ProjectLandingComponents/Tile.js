@@ -12,9 +12,9 @@ const ProjectTile = styled.h1`
   text-shadow: 0 2px 22px rgba(0, 0, 0, 0.26);
 `;
 
-const ProjectTitleLanding = () => (
+const ProjectTitleLanding = props => (
   <TileContainer>
-    <ProjectTile>VOGUEPAY</ProjectTile>
+    <ProjectTile>{props.title}</ProjectTile>
   </TileContainer>
 );
 
