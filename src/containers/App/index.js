@@ -90,26 +90,22 @@ const AppWrapper = styled.div`
   margin-bottom: 0px;
 `;
 
-class Main extends Component {
-  render() {
-    return (
-      <div>
-        <AppWrapper>
-          <Line />
-          <Line2 />
-          <Line3 />
-          <Line4 />
-          <Line5 />
-          <Line6 />
-          <Line7 />
-          <Line8 />
-          <Line9 />
-          <MainPage />
-        </AppWrapper>
-        <Footer />
-      </div>
-    );
-  }
-}
+const Main = () => (
+  <div>
+    <AppWrapper>
+      <Line />
+      <Line2 />
+      <Line3 />
+      <Line4 />
+      <Line5 />
+      <Line6 />
+      <Line7 />
+      <Line8 />
+      <Line9 />
+      <MainPage />
+    </AppWrapper>
+    <Footer />
+  </div>
+);
 
 export default Main;
