@@ -4,6 +4,7 @@ import LandingProjectOne from "../../components/ProjectOne";
 import LandingProjectTwo from "../../components/ProjectTwo";
 import LandingProjectThree from "../../components/ProjectThree";
 import LandingProjectFour from "../../components/ProjectFour";
+import LandingProjectFive from "../../components/ProjectFive";
 
 const Section = styled.div`
   width: 1024px;
@@ -36,6 +37,7 @@ const SectionThree = () => (
     <LandingProjectTwo />
     <LandingProjectThree />
     <LandingProjectFour />
+    <LandingProjectFive />
   </Section>
 );
 
