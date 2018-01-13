@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import LandingProjectOne from "../../components/ProjectOne";
 import LandingProjectTwo from "../../components/ProjectTwo";
+import LandingProjectThree from "../../components/ProjectThree";
 
 const Section = styled.div`
   width: 1024px;
@@ -32,6 +33,7 @@ const SectionThree = () => (
     <Header>Projects</Header>
     <LandingProjectOne />
     <LandingProjectTwo />
+    <LandingProjectThree />
   </Section>
 );
 
