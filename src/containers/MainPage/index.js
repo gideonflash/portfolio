@@ -35,9 +35,9 @@ const Wrapper = styled.div`
   overflow: hidden;
 `;
 
-const MainPage = () => (
-  <AppWrapper bkcolour="">
-    <BackgroundLines />
+const MainPage = props => (
+  <AppWrapper bkcolour={props.colour}>
+    <BackgroundLines lineColour="#5499B8" />
 
     <Wrapper>
       <Section>

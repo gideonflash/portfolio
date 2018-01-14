@@ -9,8 +9,12 @@ const AppRoutes = () => (
     <div>
       <LandingPageNavigation />
 
-      <Route exact path="/" component={MainPage} />
-      <Route exact path="/cashkaching" component={CashkachinPage} />
+      <Route exact path="/" render={() => <MainPage colour="#60A8C8" />} />
+      <Route
+        exact
+        path="/cashkaching"
+        render={() => <CashkachinPage colour="#6CA516" />}
+      />
     </div>
   </Router>
 );
