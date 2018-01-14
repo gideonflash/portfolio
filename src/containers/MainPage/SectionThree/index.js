@@ -35,12 +35,12 @@ const SectionThree = () => (
   <Section>
     <SubTle>the good stuff</SubTle>
     <Header>Projects</Header>
-    <LandingProjectOne />
-    <LandingProjectTwo />
-    <LandingProjectThree />
-    <LandingProjectFour />
-    <LandingProjectFive />
-    <LandingProjectSix />
+    <LandingProjectOne name="VOGUEPAY" projectNumber="Project1" />
+    <LandingProjectTwo name="AKQA" projectNumber="Project2" />
+    <LandingProjectThree name="AI" projectNumber="Project3" />
+    <LandingProjectFour name="ASHLEENLESTER" projectNumber="Project4" />
+    <LandingProjectFive name="CASHKACHING" projectNumber="Project5" />
+    <LandingProjectSix name="GENERAL ASSEMBLY" projectNumber="Project6" />
   </Section>
 );
 

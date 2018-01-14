@@ -24,7 +24,7 @@ const BrandNavigation = styled.a`
   /* Gideon: */
   font-family: GochiHand-Regular;
   font-size: 21px;
-  color: #ffffff;
+  color: #3f2f23;
   letter-spacing: 0;
   margin-top: 22px;
   margin-left: 101px;
