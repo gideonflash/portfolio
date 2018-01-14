@@ -37,8 +37,7 @@ const Wrapper = styled.div`
 
 const CashkachinPage = props => (
   <AppWrapper bkcolour={props.colour}>
-    <BackgroundLines lineColour="" />
-
+    <BackgroundLines lineColour="#6EB406" />
     <Wrapper>
       <Section>
         <SectionTop />

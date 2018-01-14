@@ -37,7 +37,7 @@ const Wrapper = styled.div`
 
 const GeneralAssemblyPage = props => (
   <AppWrapper bkcolour={props.colour}>
-    <BackgroundLines lineColour="" />
+    <BackgroundLines lineColour="#BD1637" />
 
     <Wrapper>
       <Section>

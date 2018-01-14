@@ -11,18 +11,14 @@ const Section = styled.div`
   justify-items: center;
 `;
 
-const AppWrapper = styled.div.attrs({
-  // we can define static props
-
-  // or we can define dynamic ones
-  backgroundcolor: props => props.bkcolour || "#60a8c8"
-})`
+const AppWrapper = styled.div`
+  background-image: linear-gradient(-171deg, #36d1dc 1%, #5b86e5 100%);
   margin: 28px;
   margin-bottom: 0px;
   margin-top: 0px;
-  /* here we use the dynamically computed props */
-  background-color: ${props => props.backgroundcolor};
 `;
+
+/* Rectangle 17: */
 
 const Wrapper = styled.div`
   max-width: 100%;
@@ -35,9 +31,9 @@ const Wrapper = styled.div`
   overflow: hidden;
 `;
 
-const VoguePayPage = props => (
-  <AppWrapper bkcolour={props.colour}>
-    <BackgroundLines lineColour="" />
+const VoguePayPage = () => (
+  <AppWrapper>
+    <BackgroundLines lineColour="#33B8C8" />
 
     <Wrapper>
       <Section>

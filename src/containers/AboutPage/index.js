@@ -34,11 +34,10 @@ const Wrapper = styled.div`
   padding: 0;
   overflow: hidden;
 `;
-/* Line Copy 2: */
 
-const AkqaPage = props => (
+const AboutPage = props => (
   <AppWrapper bkcolour={props.colour}>
-    <BackgroundLines lineColour="#D8D9CF" />
+    <BackgroundLines lineColour="#5499B8" />
 
     <Wrapper>
       <Section>
@@ -49,4 +48,4 @@ const AkqaPage = props => (
     </Wrapper>
   </AppWrapper>
 );
-export default AkqaPage;
+export default AboutPage;

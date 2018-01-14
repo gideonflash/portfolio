@@ -37,7 +37,7 @@ const Wrapper = styled.div`
 
 const AIPage = props => (
   <AppWrapper bkcolour={props.colour}>
-    <BackgroundLines lineColour="" />
+    <BackgroundLines lineColour="#F48859" />
 
     <Wrapper>
       <Section>

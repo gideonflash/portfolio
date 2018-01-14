@@ -13,6 +13,7 @@ const Line = styled.div.attrs({
   bottom: 131px;
   left: 10%;
   border: 0.5px solid;
+
   /* here we use the dynamically computed props */
   border-color: ${props => props.bcolor};
 `;
