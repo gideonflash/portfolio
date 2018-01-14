@@ -82,9 +82,7 @@ const LandingProjectTwo = props => (
         <Grid>
           <LinkLine />
           <Img src={Arrow} />
-          <ViewCaseStudyLink to="/cashkaching">
-            VIEW CASE STUDY
-          </ViewCaseStudyLink>
+          <ViewCaseStudyLink to="/akqa">VIEW CASE STUDY</ViewCaseStudyLink>
         </Grid>
       </LinkContianer>
     </ViewCaseStudyContianer>
