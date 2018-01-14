@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Line = styled.div`
   position: fixed;
   z-index: 0;
-  top: 28px;
+  top: 60px;
   bottom: 131px;
   left: 10%;
   border: 0.5px solid #5499b8;
@@ -12,7 +12,7 @@ const Line = styled.div`
 const Line2 = styled.div`
   position: fixed;
   z-index: 0;
-  top: 28px;
+  top: 60px;
   bottom: 131px;
   background-color: red;
   left: 20%;
@@ -21,7 +21,7 @@ const Line2 = styled.div`
 const Line3 = styled.div`
   position: fixed;
   z-index: 0;
-  top: 28px;
+  top: 60px;
   bottom: 131px;
   background-color: red;
   left: 30%;
@@ -30,7 +30,7 @@ const Line3 = styled.div`
 const Line4 = styled.div`
   position: fixed;
   z-index: 0;
-  top: 28px;
+  top: 60px;
   bottom: 131px;
   background-color: red;
   left: 40%;
@@ -39,7 +39,7 @@ const Line4 = styled.div`
 const Line5 = styled.div`
   position: fixed;
   z-index: 0;
-  top: 28px;
+  top: 60px;
   bottom: 131px;
   background-color: red;
   left: 50%;
@@ -48,7 +48,7 @@ const Line5 = styled.div`
 const Line6 = styled.div`
   position: fixed;
   z-index: 0;
-  top: 28px;
+  top: 60px;
   bottom: 131px;
   background-color: red;
   left: 60%;
@@ -57,7 +57,7 @@ const Line6 = styled.div`
 const Line7 = styled.div`
   position: fixed;
   z-index: 0;
-  top: 28px;
+  top: 60px;
   bottom: 131px;
   background-color: red;
   left: 70%;
@@ -66,7 +66,7 @@ const Line7 = styled.div`
 const Line8 = styled.div`
   position: fixed;
   z-index: 0;
-  top: 28px;
+  top: 60px;
   bottom: 131px;
   background-color: red;
   left: 80%;
@@ -75,7 +75,7 @@ const Line8 = styled.div`
 const Line9 = styled.div`
   position: fixed;
   z-index: 0;
-  top: 28px;
+  top: 60px;
   bottom: 131px;
   background-color: red;
   left: 90%;

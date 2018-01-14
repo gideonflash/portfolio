@@ -6,6 +6,13 @@ const Nav = styled.ul`
   margin: 0;
   padding: 0;
   overflow: hidden;
+  position: relative;
+  z-index: 3;
+`;
+
+const NavContainer = styled.div`
+  margin-left: 28px;
+  margin-right: 28px;
 `;
 
 const ListNavigation = styled.li`
@@ -47,7 +54,7 @@ const Profile = styled.p`
 `;
 
 const LandingPageNavigation = () => (
-  <div>
+  <NavContainer>
     <Nav>
       <BrandNavigation>Gideon</BrandNavigation>
       <ListNavigation>
@@ -61,7 +68,7 @@ const LandingPageNavigation = () => (
         </Tablinks>
       </ListNavigation>
     </Nav>
-  </div>
+  </NavContainer>
 );
 
 export default LandingPageNavigation;

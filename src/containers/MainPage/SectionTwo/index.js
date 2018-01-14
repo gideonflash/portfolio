@@ -10,6 +10,7 @@ const Section = styled.div`
   width: 1024px;
   height: 100%;
   margin-top: 100px;
+  margin: 28px;
 `;
 
 const SectionTwoContianer = styled.div`
