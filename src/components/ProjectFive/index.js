@@ -46,6 +46,7 @@ const ViewCaseStudyLink = styled(Link)`
   font-size: 14px;
   color: #433d3d;
   letter-spacing: 1.63px;
+  text-decoration: none;
 `;
 const Grid = styled.div`
   display: grid;

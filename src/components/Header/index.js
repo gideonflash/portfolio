@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 
 const Nav = styled.ul`
   list-style-type: none;
@@ -19,7 +20,7 @@ const ListNavigation = styled.li`
   float: right;
 `;
 
-const BrandNavigation = styled.a`
+const BrandNavigation = styled(NavLink)`
   float: left;
   /* Gideon: */
   font-family: GochiHand-Regular;
@@ -28,6 +29,7 @@ const BrandNavigation = styled.a`
   letter-spacing: 0;
   margin-top: 22px;
   margin-left: 101px;
+  text-decoration: none;
 `;
 const Tablinks = styled.a`
   display: block;
@@ -56,7 +58,7 @@ const Profile = styled.p`
 const LandingPageNavigation = () => (
   <NavContainer>
     <Nav>
-      <BrandNavigation>Gideon</BrandNavigation>
+      <BrandNavigation to="/">Gideon</BrandNavigation>
       <ListNavigation>
         <Tablinks>
           <Experiance>EXPERIANCE</Experiance>

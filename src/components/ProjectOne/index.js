@@ -46,6 +46,7 @@ const ViewCaseStudyLink = styled(Link)`
   font-size: 14px;
   color: #433d3d;
   letter-spacing: 1.63px;
+  text-decoration: none;
 `;
 const Grid = styled.div`
   display: grid;
@@ -82,7 +83,7 @@ const LandingProjectOne = props => (
         <Grid>
           <LinkLine />
           <Img src={Arrow} />
-          <ViewCaseStudyLink to="/vougepay">VIEW CASE STUDY</ViewCaseStudyLink>
+          <ViewCaseStudyLink to="/voguepay">VIEW CASE STUDY</ViewCaseStudyLink>
         </Grid>
       </LinkContianer>
     </ViewCaseStudyContianer>
