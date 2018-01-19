@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import styled from "styled-components";
 
 const TapeText = styled.p`
@@ -30,18 +30,15 @@ const Red = styled.p`
   display: inline-block;
 `;
 
-class WhatIDoSection extends Component {
-  render() {
-    return (
-      <WhatIDoContainer>
-        <TapeText>WHAT I DO TAPE 1:</TapeText>
-        <WhatIDo>
-          PRODUCT <Red>DESIGN</Red> FRONT-END <Red>DEVLOPMENT </Red> AND
-          <Red>LONG WALKS</Red> IN THE PARK
-        </WhatIDo>
-      </WhatIDoContainer>
-    );
-  }
-}
+
+const WhatIDoSection = () => (
+  <WhatIDoContainer>
+    <TapeText>WHAT I DO TAPE 1:</TapeText>
+    <WhatIDo>
+      PRODUCT <Red>DESIGN</Red> FRONT-END <Red>DEVLOPMENT </Red> AND
+      <Red>LONG WALKS</Red> IN THE PARK
+    </WhatIDo>
+  </WhatIDoContainer>
+);
 
 export default WhatIDoSection;
