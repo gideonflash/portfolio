@@ -10,6 +10,10 @@ const TapeText = styled.p`
   display: inline-block;
   margin-bottom: 0;
   margin-right: 10px;
+  @media (max-width: 420px) {
+    /* WHAT I DO TAPE 1:: */
+    font-size: 11px;
+  }
 `;
 
 const WhatIDoContainer = styled.div`
@@ -23,13 +27,16 @@ const WhatIDo = styled.p`
   letter-spacing: 0;
   display: inline-block;
   margin-bottom: 0;
+  @media (max-width: 420px) {
+    /* WHAT I DO TAPE 1:: */
+    font-size: 12px;
+  }
 `;
 
 const Red = styled.p`
   color: #b4211e;
   display: inline-block;
 `;
-
 
 const WhatIDoSection = () => (
   <WhatIDoContainer>
