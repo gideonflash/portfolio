@@ -12,8 +12,10 @@ const Section = styled.div`
   height: 100%;
   margin-top: 86px;
   @media (max-width: 420px) {
-   display: none;
- }
+    width: 300px;
+
+    margin-top: 80px;
+  }
 `;
 const SubTle = styled.h2`
   font-family: GochiHand-Regular;
@@ -32,6 +34,9 @@ const Header = styled.h1`
   margin: 0;
   margin-top: 5px;
   text-align: center;
+  @media (max-width: 420px) {
+    display: none;
+  }
 `;
 
 const SectionThree = () => (

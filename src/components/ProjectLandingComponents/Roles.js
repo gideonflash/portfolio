@@ -18,6 +18,10 @@ const RoleLine = styled.span`
   height: 2px;
   margin-left: 10px;
   margin-bottom: 1px;
+  @media (max-width: 420px) {
+    width: 185px;
+    height: 1px;
+  }
 `;
 
 const SkillsListItem = styled.li`

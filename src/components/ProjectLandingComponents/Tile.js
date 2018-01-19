@@ -10,6 +10,9 @@ const ProjectTile = styled.h1`
   letter-spacing: 0;
   line-height: 87px;
   text-shadow: 0 2px 22px rgba(0, 0, 0, 0.26);
+  @media (max-width: 420px) {
+    font-size: 24px;
+  }
 `;
 
 const ProjectTitleLanding = props => (

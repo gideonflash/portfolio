@@ -18,6 +18,10 @@ const AboutCompanyLine = styled.span`
   height: 2px;
   margin-left: 10px;
   margin-bottom: 1px;
+  @media (max-width: 420px) {
+    width: 194px;
+    height: 1px;
+  }
 `;
 
 const AboutCompany = styled.p`

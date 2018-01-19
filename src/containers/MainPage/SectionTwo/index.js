@@ -12,14 +12,20 @@ const Section = styled.div`
   margin-top: 100px;
   margin: 28px;
   @media (max-width: 420px) {
-   display: none;
- }
+    width: 300px;
+    margin: 0px;
+    margin-top: 70px;
+  }
 `;
 
 const SectionTwoContianer = styled.div`
   display: grid;
   grid-template-columns: 50% 50%;
   margin-top: 115px;
+  @media (max-width: 420px) {
+    grid-template-columns: 1fr;
+    margin-top: 68px;
+  }
 `;
 const ValuePropContianer = styled.div`
   z-index: 2;
@@ -30,6 +36,10 @@ const ProfileTextContainer = styled.div`
   z-index: 2;
   grid-row-start: 1;
   grid-column-start: 2;
+  @media (max-width: 420px) {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
 `;
 const BackdropText = styled.div`
   grid-column-end: span 3;
@@ -52,6 +62,9 @@ const ValuePropText = styled.h2`
   color: #443d3d;
   letter-spacing: 0;
   font-weight: normal;
+  @media (max-width: 420px) {
+    font-size: 21px;
+  }
 `;
 
 const ProfileText = styled.p`
@@ -59,6 +72,9 @@ const ProfileText = styled.p`
   font-size: 16px;
   color: #443d3d;
   letter-spacing: 0;
+  @media (max-width: 420px) {
+    font-size: 13px;
+  }
 `;
 
 const SkillsList = styled.ul`
@@ -89,6 +105,10 @@ const Slash = styled.span`
   display: inline-block;
   margin-left: 10px;
   margin-right: 10px;
+  @media (max-width: 420px) {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 `;
 const ProfileBackDropText = styled.h3`
   /* Profile Copy: */
@@ -100,6 +120,10 @@ const ProfileBackDropText = styled.h3`
   margin: 0;
   justify-self: center;
   align-self: center;
+  @media (max-width: 420px) {
+    font-size: 79px;
+    margin-top: 46px;
+  }
 `;
 
 const SocialContianer = styled.div``;

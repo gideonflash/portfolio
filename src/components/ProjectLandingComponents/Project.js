@@ -18,6 +18,9 @@ const ProjectLine = styled.span`
   height: 2px;
   margin-left: 10px;
   margin-bottom: 1px;
+  @media (max-width: 420px) {
+    height: 1px;
+  }
 `;
 
 const ProjectTypeListContianer = styled.div``;
