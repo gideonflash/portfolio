@@ -11,6 +11,9 @@ const Section = styled.div`
   height: 100%;
   margin-top: 100px;
   margin: 28px;
+  @media (max-width: 420px) {
+   display: none;
+ }
 `;
 
 const SectionTwoContianer = styled.div`

@@ -12,6 +12,9 @@ const FooterContianer = styled.div`
   justify-self: center;
   margin-top: 28px;
   margin-bottom: 28px;
+  @media (max-width: 420px) {
+   width: 360px;
+ }
 `;
 
 const BuiltWithLove = styled.a`

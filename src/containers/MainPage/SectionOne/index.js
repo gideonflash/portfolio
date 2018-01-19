@@ -7,6 +7,9 @@ import NameAndSkills from "../../../components/NameHeaderSection";
 const SectionOne = styled.div`
   width: 1024px;
   height: 100%;
+  @media (max-width: 420px) {
+   width: 360px;
+ }
 `;
 
 const SectionTop = () => (

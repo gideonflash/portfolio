@@ -30,6 +30,9 @@ const BrandNavigation = styled(NavLink)`
   margin-top: 22px;
   margin-left: 101px;
   text-decoration: none;
+  @media (max-width: 420px) {
+  margin-left: 0px;
+ }
 `;
 const Tablinks = styled.a`
   display: block;
@@ -46,6 +49,9 @@ const Tablinks = styled.a`
     background-color: #b4211e;
     color: #ffffff;
   }
+  @media (max-width: 420px) {
+  display: none;
+ }
 `;
 
 const Experiance = styled.p`

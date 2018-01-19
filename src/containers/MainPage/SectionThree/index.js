@@ -11,6 +11,9 @@ const Section = styled.div`
   width: 1024px;
   height: 100%;
   margin-top: 86px;
+  @media (max-width: 420px) {
+   display: none;
+ }
 `;
 const SubTle = styled.h2`
   font-family: GochiHand-Regular;
