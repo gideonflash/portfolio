@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import styled from "styled-components";
 
 const LandingMainText = styled.div``;
@@ -11,6 +11,11 @@ const MainText = styled.h1`
   color: #443d3d;
   font-weight: normal;
   line-height: 72px;
+  @media (max-width: 420px) {
+    /* PRODUCT DESIGNER AND: */
+    font-size: 36px;
+    line-height: 43px;
+  }
 `;
 const Red = styled.h1`
   color: #b4211e;
@@ -21,6 +26,11 @@ const Red = styled.h1`
   line-height: 72px;
   font-weight: normal;
   margin: 0;
+  @media (max-width: 420px) {
+    /* PRODUCT DESIGNER AND: */
+    font-size: 36px;
+    line-height: 43px;
+  }
 `;
 const White = styled.h1`
   color: #ffffff;
@@ -31,21 +41,22 @@ const White = styled.h1`
   line-height: 72px;
   font-weight: normal;
   margin: 0;
+  @media (max-width: 420px) {
+    /* PRODUCT DESIGNER AND: */
+    font-size: 36px;
+    line-height: 43px;
+  }
 `;
 
-class Title extends Component {
-  render() {
-    return (
-      <LandingMainText>
-        <MainText />
-        <MainText>
-          PRODUCT<br /> <Red> DESIGNER </Red>
-          <White> AND </White>
-          <br />FRONT-END DEVLOPER
-        </MainText>
-      </LandingMainText>
-    );
-  }
-}
+const Title = () => (
+  <LandingMainText>
+    <MainText />
+    <MainText>
+      PRODUCT<br /> <Red> DESIGNER </Red>
+      <White> AND </White>
+      <br />FRONT-END DEVLOPER
+    </MainText>
+  </LandingMainText>
+);
 
 export default Title;
