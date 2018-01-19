@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import styled from "styled-components";
 
 const Section = styled.div`
@@ -13,8 +13,9 @@ const FooterContianer = styled.div`
   margin-top: 28px;
   margin-bottom: 28px;
   @media (max-width: 420px) {
-   width: 360px;
- }
+    width: 300px;
+    margin-bottom: 0px;
+  }
 `;
 
 const BuiltWithLove = styled.a`
@@ -25,16 +26,12 @@ const BuiltWithLove = styled.a`
   letter-spacing: 1.08px;
 `;
 
-class Footer extends Component {
-  render() {
-    return (
-      <Section>
-        <FooterContianer>
-          <BuiltWithLove>Built with love by Gideon</BuiltWithLove>
-        </FooterContianer>
-      </Section>
-    );
-  }
-}
+const Footer = () => (
+  <Section>
+    <FooterContianer>
+      <BuiltWithLove>Built with love by Gideon</BuiltWithLove>
+    </FooterContianer>
+  </Section>
+);
 
 export default Footer;
