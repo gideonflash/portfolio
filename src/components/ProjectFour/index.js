@@ -64,7 +64,7 @@ const SectionWrapper = styled.div`
   @media (max-width: 420px) {
     display: none;
   }
-  @media (max-width: 689px) {
+  @media (max-width: 769px) {
     display: none;
   }
 `;
