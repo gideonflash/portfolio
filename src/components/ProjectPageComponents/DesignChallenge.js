@@ -54,6 +54,9 @@ const Headercontianer = styled.div`
   display: grid;
   grid-template-columns: 17% 1fr;
   align-items: center;
+  @media (max-width: 420px) {
+    grid-template-columns: 40% 1fr;
+  }
 `;
 
 const DesignChallenge = () => (

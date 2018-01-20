@@ -12,21 +12,38 @@ const Section = styled.div`
 
   @media only screen and (device-width: 768px) {
     width: 659px;
-    display: none;
+    margin-top: 80px;
   }
 `;
 const ContentContainer = styled.div`
   display: grid;
   grid-template-columns: 38% 1fr;
+  @media only screen and (device-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+  @media (max-width: 420px) {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
 `;
+const DeliverablecContianer = styled.div`
+  @media (max-width: 420px) {
+    grid-row-start: 2;
+    margin-top: 24px;
+  }
+  @media only screen and (device-width: 768px) {
+    grid-row-start: 2;
+  }
+`;
+const DesignChallenge2 = styled(DesignChallenge)``;
 
 const SectionTwo = () => (
   <Section>
     <ContentContainer>
-      <div>
+      <DeliverablecContianer>
         <ProjectDeliverables />
-      </div>
-      <DesignChallenge />
+      </DeliverablecContianer>
+      <DesignChallenge2 />
     </ContentContainer>
   </Section>
 );

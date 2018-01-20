@@ -8,10 +8,13 @@ const SectionOne = styled.div`
   height: 768px;
   @media (max-width: 420px) {
     width: 300px;
+    height: 100%;
+    margin-bottom: 80px;
   }
 
   @media only screen and (device-width: 768px) {
     width: 659px;
+    height: 100%;
   }
 `;
 

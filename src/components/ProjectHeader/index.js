@@ -16,7 +16,10 @@ const Name = styled.div`
   letter-spacing: 0;
   line-height: 87px;
   @media (max-width: 420px) {
-    font-size: 60px;
+    /* ANALYTICS INTELLIGEN: */
+
+    font-size: 30px;
+    line-height: 39px;
   }
   @media only screen and (device-width: 768px) {
     /* ANALYTICS INTELLIGEN: */
@@ -35,6 +38,8 @@ const Details = styled.p`
   margin-right: 20px;
   @media (max-width: 420px) {
     font-size: 14px;
+    margin: 0px;
+    margin-bottom: 11px;
     margin-right: 12px;
   }
   @media only screen and (device-width: 768px) {
@@ -57,6 +62,10 @@ const TechSubHeader = styled.h2`
   font-weight: normal;
   display: inline-block;
   margin-right: 34px;
+  @media (max-width: 420px) {
+    margin-right: 10px;
+    margin-bottom: 0px;
+  }
 `;
 
 const ProjectHeader = () => (
