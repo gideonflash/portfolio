@@ -155,7 +155,7 @@ const Box1 = styled.div`
   @media only screen and (device-width: 768px) {
     grid-row-start: 3;
   }
-  @media (min-width: 768px) {
+  @media only screen and (device-width: 768px) {
     grid-row-start: 2;
     grid-column-start: 1;
   }
@@ -164,7 +164,7 @@ const Box2 = styled.div`
   @media only screen and (device-width: 768px) {
     grid-row-start: 2;
   }
-  @media (min-width: 768px) {
+  @media only screen and (device-width: 768px) {
     grid-row-start: 2;
     grid-column-start: 2;
   }

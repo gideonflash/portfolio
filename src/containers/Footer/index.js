@@ -16,7 +16,7 @@ const FooterContianer = styled.div`
     width: 300px;
     margin-bottom: 0px;
   }
-  @media (min-width: 768px) {
+  @media only screen and (device-width: 768px) {
     width: 660px;
     margin-bottom: 0px;
   }
