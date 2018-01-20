@@ -97,6 +97,9 @@ const SectionWrapper = styled.div`
   @media (max-width: 420px) {
     margin-top: 80px;
   }
+  @media (max-width: 689px) {
+    display: none;
+  }
 `;
 const ProjectContainer = styled.div`
   display: grid;

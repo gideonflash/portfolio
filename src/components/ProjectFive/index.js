@@ -64,6 +64,9 @@ const SectionWrapper = styled.div`
   @media (max-width: 420px) {
     display: none;
   }
+  @media (max-width: 689px) {
+    display: none;
+  }
 `;
 const ProjectContainer = styled.div`
   display: grid;

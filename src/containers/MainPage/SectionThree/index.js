@@ -17,7 +17,7 @@ const Section = styled.div`
     margin-top: 80px;
   }
   @media (max-width: 768px) {
-    display: none;
+    width: 659px;
   }
 `;
 const SubTle = styled.h2`
@@ -38,6 +38,9 @@ const Header = styled.h1`
   margin-top: 5px;
   text-align: center;
   @media (max-width: 420px) {
+    display: none;
+  }
+  @media (max-width: 689px) {
     display: none;
   }
 `;
