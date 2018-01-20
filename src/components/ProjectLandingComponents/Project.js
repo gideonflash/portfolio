@@ -21,7 +21,7 @@ const ProjectLine = styled.span`
   @media (max-width: 420px) {
     height: 1px;
   }
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     height: 1px;
   }
 `;

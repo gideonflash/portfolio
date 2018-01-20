@@ -13,7 +13,7 @@ const ProjectTile = styled.h1`
   @media (max-width: 420px) {
     font-size: 24px;
   }
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     font-size: 57px;
   }
 `;

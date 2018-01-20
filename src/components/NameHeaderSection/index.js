@@ -9,7 +9,7 @@ const Container = styled.div`
   @media (max-width: 420px) {
     grid-template-columns: 1fr;
   }
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     grid-template-columns: 1fr;
   }
 `;
@@ -108,7 +108,7 @@ const ImgContainer = styled.div`
   @media (max-width: 420px) {
     display: none;
   }
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     display: none;
   }
 `;

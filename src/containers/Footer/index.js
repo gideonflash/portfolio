@@ -16,8 +16,8 @@ const FooterContianer = styled.div`
     width: 300px;
     margin-bottom: 0px;
   }
-  @media (max-width: 768px) {
-    width: 736px;
+  @media (min-width: 768px) {
+    width: 660px;
     margin-bottom: 0px;
   }
 `;

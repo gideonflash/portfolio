@@ -22,7 +22,7 @@ const AboutCompanyLine = styled.span`
     width: 194px;
     height: 1px;
   }
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     width: 552px;
     height: 1px;
   }

@@ -17,7 +17,7 @@ const Line = styled.div.attrs({
     left: 25%;
     top: 63px;
   }
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     left: 14%;
     top: 63px;
   }
@@ -32,7 +32,7 @@ const Line2 = Line.extend`
     left: 50%;
     top: 63px;
   }
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     left: 28%;
     top: 63px;
   }
@@ -43,7 +43,7 @@ const Line3 = Line.extend`
     left: 75%;
     top: 63px;
   }
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     left: 42%;
     top: 63px;
   }
@@ -53,7 +53,7 @@ const Line4 = Line.extend`
   @media (max-width: 420px) {
     display: none;
   }
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     left: 56%;
     top: 63px;
   }
@@ -63,7 +63,7 @@ const Line5 = Line.extend`
   @media (max-width: 420px) {
     display: none;
   }
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     left: 70%;
     top: 63px;
   }
@@ -74,7 +74,7 @@ const Line6 = Line.extend`
   @media (max-width: 420px) {
     display: none;
   }
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     left: 84%;
     top: 63px;
   }
@@ -84,7 +84,7 @@ const Line7 = Line.extend`
   @media (max-width: 420px) {
     display: none;
   }
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     display: none;
   }
 `;
@@ -93,7 +93,7 @@ const Line8 = Line.extend`
   @media (max-width: 420px) {
     display: none;
   }
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     display: none;
   }
 `;
@@ -102,7 +102,7 @@ const Line9 = Line.extend`
   @media (max-width: 420px) {
     display: none;
   }
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     display: none;
   }
 `;

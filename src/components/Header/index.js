@@ -33,7 +33,7 @@ const BrandNavigation = styled(NavLink)`
   @media (max-width: 420px) {
     margin-left: 0px;
   }
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     margin-left: 30px;
     margin-top: 18px;
   }
