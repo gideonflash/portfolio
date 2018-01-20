@@ -69,8 +69,8 @@
 }
 @font-face {
   font-family: "SanFranciscoText-Medium";
-  src: url("sanfranciscotext-medium-webfont.woff2") format("woff2"),
-    url("sanfranciscotext-medium-webfont.woff") format("woff");
+  src: url("./fonts/sanfranciscotext-medium-webfont.woff2") format("woff2"),
+    url("./fonts/sanfranciscotext-medium-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
