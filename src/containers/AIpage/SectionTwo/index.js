@@ -12,6 +12,7 @@ const Section = styled.div`
 
   @media only screen and (device-width: 768px) {
     width: 659px;
+    display: none;
   }
 `;
 const ContentContainer = styled.div`

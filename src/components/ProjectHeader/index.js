@@ -3,14 +3,6 @@ import styled from "styled-components";
 
 const Container = styled.div`
   display: grid;
-
-  margin-top: 40px;
-  @media (max-width: 420px) {
-    grid-template-columns: 1fr;
-  }
-  @media only screen and (device-width: 768px) {
-    grid-template-columns: 1fr;
-  }
 `;
 
 const NameContainer = styled.div`
@@ -18,15 +10,19 @@ const NameContainer = styled.div`
 `;
 
 const Name = styled.div`
-  /* GIDEON: */
-  /* ANALYTICS INTELLIGEN: */
   font-family: Futura-Bold;
   font-size: 92px;
   color: #433d3d;
   letter-spacing: 0;
   line-height: 87px;
   @media (max-width: 420px) {
-    font-size: 67px;
+    font-size: 60px;
+  }
+  @media only screen and (device-width: 768px) {
+    /* ANALYTICS INTELLIGEN: */
+
+    font-size: 60px;
+    line-height: 61px;
   }
 `;
 const Details = styled.p`
@@ -40,6 +36,9 @@ const Details = styled.p`
   @media (max-width: 420px) {
     font-size: 14px;
     margin-right: 12px;
+  }
+  @media only screen and (device-width: 768px) {
+    font-size: 12px;
   }
 `;
 
