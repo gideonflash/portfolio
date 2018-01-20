@@ -16,6 +16,9 @@ const Section = styled.div`
     margin: 0px;
     margin-top: 70px;
   }
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 const SectionTwoContianer = styled.div`

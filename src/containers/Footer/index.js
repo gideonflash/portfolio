@@ -16,6 +16,10 @@ const FooterContianer = styled.div`
     width: 300px;
     margin-bottom: 0px;
   }
+  @media (max-width: 768px) {
+    width: 736px;
+    margin-bottom: 0px;
+  }
 `;
 
 const BuiltWithLove = styled.a`

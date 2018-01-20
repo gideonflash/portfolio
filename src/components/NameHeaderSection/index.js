@@ -9,6 +9,9 @@ const Container = styled.div`
   @media (max-width: 420px) {
     grid-template-columns: 1fr;
   }
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 const NameContainer = styled.div`
@@ -103,6 +106,9 @@ const ImgContainer = styled.div`
   justify-self: end;
   align-self: center;
   @media (max-width: 420px) {
+    display: none;
+  }
+  @media (max-width: 768px) {
     display: none;
   }
 `;

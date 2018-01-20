@@ -15,9 +15,12 @@ const Line = styled.div.attrs({
   border: 0.5px solid;
   @media (max-width: 420px) {
     left: 25%;
-        top: 63px;
-
- }
+    top: 63px;
+  }
+  @media (max-width: 768px) {
+    left: 14%;
+    top: 63px;
+  }
 
   /* here we use the dynamically computed props */
   border-color: ${props => props.bcolor};
@@ -25,55 +28,83 @@ const Line = styled.div.attrs({
 
 const Line2 = Line.extend`
   left: 20%;
-@media (max-width: 420px) {
-  left: 50%;
+  @media (max-width: 420px) {
+    left: 50%;
     top: 63px;
-}
+  }
+  @media (max-width: 768px) {
+    left: 28%;
+    top: 63px;
+  }
 `;
 const Line3 = Line.extend`
   left: 30%;
   @media (max-width: 420px) {
     left: 75%;
-        top: 63px;
-
- }
+    top: 63px;
+  }
+  @media (max-width: 768px) {
+    left: 42%;
+    top: 63px;
+  }
 `;
 const Line4 = Line.extend`
   left: 40%;
   @media (max-width: 420px) {
-   display: none;
- }
+    display: none;
+  }
+  @media (max-width: 768px) {
+    left: 56%;
+    top: 63px;
+  }
 `;
 const Line5 = Line.extend`
   left: 50%;
   @media (max-width: 420px) {
-   display: none;
- }
+    display: none;
+  }
+  @media (max-width: 768px) {
+    left: 70%;
+    top: 63px;
+  }
 `;
 
 const Line6 = Line.extend`
   left: 60%;
   @media (max-width: 420px) {
-   display: none;
- }
+    display: none;
+  }
+  @media (max-width: 768px) {
+    left: 84%;
+    top: 63px;
+  }
 `;
 const Line7 = Line.extend`
   left: 70%;
   @media (max-width: 420px) {
-   display: none;
- }
+    display: none;
+  }
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 const Line8 = Line.extend`
   left: 80%;
   @media (max-width: 420px) {
-   display: none;
- }
+    display: none;
+  }
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 const Line9 = Line.extend`
   left: 90%;
   @media (max-width: 420px) {
-   display: none;
- }
+    display: none;
+  }
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 const BackgroundLines = props => (

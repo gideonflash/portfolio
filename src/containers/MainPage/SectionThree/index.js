@@ -16,6 +16,9 @@ const Section = styled.div`
 
     margin-top: 80px;
   }
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 const SubTle = styled.h2`
   font-family: GochiHand-Regular;

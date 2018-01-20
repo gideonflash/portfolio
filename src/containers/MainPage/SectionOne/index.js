@@ -10,6 +10,9 @@ const SectionOne = styled.div`
   @media (max-width: 420px) {
     width: 300px;
   }
+  @media (max-width: 768px) {
+    width: 659px;
+  }
 `;
 
 const SectionTop = () => (

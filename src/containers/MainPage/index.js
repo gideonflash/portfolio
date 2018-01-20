@@ -21,8 +21,8 @@ const AppWrapper = styled.div.attrs({
   margin-bottom: 0px;
   margin-top: 0px;
   @media (max-width: 420px) {
-   margin: 16px;
- }
+    margin: 16px;
+  }
   /* here we use the dynamically computed props */
   background-color: ${props => props.backgroundcolor};
 `;
