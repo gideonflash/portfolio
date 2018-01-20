@@ -18,6 +18,7 @@ const Section = styled.div`
   }
   @media (max-width: 768px) {
     width: 659px;
+    margin-top: 80px;
   }
 `;
 const SubTle = styled.h2`
@@ -40,7 +41,7 @@ const Header = styled.h1`
   @media (max-width: 420px) {
     display: none;
   }
-  @media (max-width: 689px) {
+  @media (max-width: 768px) {
     display: none;
   }
 `;

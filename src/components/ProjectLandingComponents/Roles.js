@@ -22,6 +22,9 @@ const RoleLine = styled.span`
     width: 185px;
     height: 1px;
   }
+  @media (max-width: 768px) {
+    height: 1px;
+  }
 `;
 
 const SkillsListItem = styled.li`
