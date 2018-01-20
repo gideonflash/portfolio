@@ -10,7 +10,8 @@ const SectionOne = styled.div`
   @media (max-width: 420px) {
     width: 300px;
   }
-  @media (min-width: 768px) {
+
+  @media only screen and (device-width: 768px) {
     width: 659px;
   }
 `;
