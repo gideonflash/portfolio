@@ -17,7 +17,7 @@ const Section = styled.div`
     margin-top: 70px;
   }
   @media (max-width: 768px) {
-    display: none;
+    width: 659px;
   }
 `;
 
@@ -68,6 +68,9 @@ const ValuePropText = styled.h2`
   @media (max-width: 420px) {
     font-size: 21px;
   }
+  @media (max-width: 768px) {
+    font-size: 30px;
+  }
 `;
 
 const ProfileText = styled.p`
@@ -77,6 +80,9 @@ const ProfileText = styled.p`
   letter-spacing: 0;
   @media (max-width: 420px) {
     font-size: 13px;
+  }
+  @media (max-width: 769px) {
+    font-size: 16px;
   }
 `;
 
