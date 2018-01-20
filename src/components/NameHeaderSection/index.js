@@ -9,7 +9,7 @@ const Container = styled.div`
   @media (max-width: 420px) {
     grid-template-columns: 1fr;
   }
-  @media (min-width: 768px) {
+  @media only screen and (device-width: 768px) {
     grid-template-columns: 1fr;
   }
 `;

@@ -6,7 +6,17 @@ const Section = styled.div`
   height: 100%;
   margin-top: 86px;
 `;
+const ContentContainer = styled.div`
+  display: grid;
+`;
 
-const SectionThree = () => <Section>section three</Section>;
+const SectionThree = () => (
+  <Section>
+    <ContentContainer>
+      <div>1</div>
+      <div>2</div>
+    </ContentContainer>
+  </Section>
+);
 
 export default SectionThree;
