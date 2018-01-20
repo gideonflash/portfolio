@@ -16,7 +16,7 @@ const Section = styled.div`
 
     margin-top: 80px;
   }
-  @media (min-width: 768px) {
+  @media only screen and (device-width: 768px) {
     width: 659px;
     margin-top: 80px;
   }
@@ -41,7 +41,7 @@ const Header = styled.h1`
   @media (max-width: 420px) {
     display: none;
   }
-  @media (min-width: 768px) {
+  @media only screen and (device-width: 768px) {
     display: none;
   }
 `;

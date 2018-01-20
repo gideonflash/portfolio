@@ -22,7 +22,7 @@ const RoleLine = styled.span`
     width: 185px;
     height: 1px;
   }
-  @media (min-width: 768px) {
+  @media only screen and (device-width: 768px) {
     height: 1px;
   }
 `;

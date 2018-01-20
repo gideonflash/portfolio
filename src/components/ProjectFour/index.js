@@ -20,7 +20,7 @@ const BackdropText = styled.p`
   @media (max-width: 420px) {
     font-size: 60px;
   }
-  @media (min-width: 768px) {
+  @media only screen and (device-width: 768px) {
     font-size: 100px;
   }
 `;
@@ -36,7 +36,7 @@ const ProjectTitleLandingS = styled(ProjectTitleLanding)`
     grid-row-start: 1;
     font-size: 24px;
   }
-  @media (min-width: 768px) {
+  @media only screen and (device-width: 768px) {
     grid-row-start: 1;
   }
 `;
@@ -60,7 +60,7 @@ const LinkLine = styled.span`
   @media (max-width: 420px) {
     display: none;
   }
-  @media (min-width: 768px) {
+  @media only screen and (device-width: 768px) {
     display: none;
   }
 `;
@@ -75,7 +75,7 @@ const LinkLine2 = styled.span`
     height: 2px;
     /* Line 2 Copy 6: */
   }
-  @media (min-width: 768px) {
+  @media only screen and (device-width: 768px) {
     display: inline-block;
     background-color: #ffffff;
 
@@ -99,7 +99,7 @@ const Grid = styled.div`
   @media (max-width: 420px) {
     grid-template-columns: 20% 1fr;
   }
-  @media (min-width: 768px) {
+  @media only screen and (device-width: 768px) {
     grid-template-columns: 20% 1fr;
   }
 `;
@@ -110,7 +110,7 @@ const ViewCaseStudyContianer = styled.div`
   }
 `;
 const Img = styled.img`
-  @media (min-width: 768px) {
+  @media only screen and (device-width: 768px) {
     justify-self: end;
   }
 `;
@@ -121,7 +121,7 @@ const SectionWrapper = styled.div`
   @media (max-width: 420px) {
     margin-top: 80px;
   }
-  @media (min-width: 768px) {
+  @media only screen and (device-width: 768px) {
     margin-top: 117px;
     margin-bottom: 180px;
   }
@@ -133,7 +133,7 @@ const ProjectContainer = styled.div`
     grid-row-start: 3;
     grid-template-columns: 1fr;
   }
-  @media (min-width: 768px) {
+  @media only screen and (device-width: 768px) {
     grid-row-start: 3;
     grid-template-columns: 1fr;
   }
@@ -145,14 +145,14 @@ const ProjectTileContianer = styled.div`
     grid-template-columns: 1fr 1fr;
     align-items: center;
   }
-  @media (min-width: 768px) {
+  @media only screen and (device-width: 768px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
   }
 `;
 const Box1 = styled.div`
-  @media (max-width: 420px) {
+  @media only screen and (device-width: 768px) {
     grid-row-start: 3;
   }
   @media (min-width: 768px) {
@@ -161,7 +161,7 @@ const Box1 = styled.div`
   }
 `;
 const Box2 = styled.div`
-  @media (max-width: 420px) {
+  @media only screen and (device-width: 768px) {
     grid-row-start: 2;
   }
   @media (min-width: 768px) {
@@ -174,7 +174,7 @@ const Box3 = styled.div`
     grid-row-start: 1;
     margin-bottom: 24px;
   }
-  @media (min-width: 768px) {
+  @media only screen and (device-width: 768px) {
     grid-row-start: 1;
     margin-bottom: 24px;
     grid-column-end: 3;
