@@ -40,6 +40,10 @@ const NumberContainer = styled.div`
 const Container = styled.div`
   display: grid;
   justify-items: center;
+  @media (max-width: 420px) {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
 `;
 
 const Step = () => (

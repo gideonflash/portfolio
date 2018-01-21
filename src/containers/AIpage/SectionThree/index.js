@@ -20,10 +20,13 @@ const Section = styled.div`
 const ContentContainer = styled.div`
   display: grid;
   grid-template-columns: 62.5% 1fr;
+  margin-top: 260px;
   @media (max-width: 420px) {
     grid-template-columns: 1fr;
+    margin-top: 90px;
   }
   @media only screen and (device-width: 768px) {
+    margin-top: 80px;
     grid-template-columns: 1fr;
   }
 `;

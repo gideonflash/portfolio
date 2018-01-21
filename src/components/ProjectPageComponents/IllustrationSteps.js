@@ -6,10 +6,16 @@ import Squiggle from "./images/Squiggle.svg";
 const Container = styled.div`
   display: grid;
   grid-template-columns: 50% 50%;
+  @media (max-width: 420px) {
+    grid-template-columns: 1fr;
+  }
 `;
 const NormalSteps = styled.div`
   display: grid;
   justify-items: center;
+  @media (max-width: 420px) {
+    margin-bottom: 60px;
+  }
 `;
 
 const Text = styled.p`
