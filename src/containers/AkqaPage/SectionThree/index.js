@@ -28,6 +28,11 @@ const ProjectImgContainer = styled.div`
   grid-row-start: 1;
   grid-column-start: 2;
   z-index: 2;
+  @media (max-width: 420px) {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    z-index: 1;
+  }
 `;
 const BkContainer = styled.div`
   grid-row-start: 1;
@@ -42,6 +47,9 @@ const BkText = styled.p`
   font-size: 117px;
   color: #d8d9cf;
   letter-spacing: 0;
+  @media (max-width: 420px) {
+    font-size: 67px;
+  }
 `;
 
 const SectionThree = () => (
