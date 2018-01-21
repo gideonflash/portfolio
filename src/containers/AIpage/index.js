@@ -3,6 +3,7 @@ import styled from "styled-components";
 import SectionTop from "./SectionOne";
 import SectionTwo from "./SectionTwo";
 import SectionThree from "./SectionThree";
+import SectionFour from "./SectionFour";
 import BackgroundLines from "../../components/BackgroundLines";
 
 const Section = styled.div`
@@ -47,6 +48,7 @@ const AIPage = props => (
         <SectionTop />
         <SectionTwo />
         <SectionThree />
+        <SectionFour />
       </Section>
     </Wrapper>
   </AppWrapper>
