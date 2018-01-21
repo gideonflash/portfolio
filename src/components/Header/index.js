@@ -38,7 +38,7 @@ const BrandNavigation = styled(NavLink)`
     margin-top: 18px;
   }
 `;
-const Tablinks = styled.a`
+const Tablinks = styled(NavLink)`
   display: block;
 
   text-align: center;
@@ -70,13 +70,13 @@ const LandingPageNavigation = () => (
     <Nav>
       <BrandNavigation to="/">Gideon</BrandNavigation>
       <ListNavigation>
-        <Tablinks>
+        <Tablinks to="/akqa">
           <Experiance>EXPERIANCE</Experiance>
         </Tablinks>
       </ListNavigation>
       <ListNavigation>
-        <Tablinks>
-          <Profile>PROFILE</Profile>
+        <Tablinks to="/about">
+          <Profile>ABOUT</Profile>
         </Tablinks>
       </ListNavigation>
     </Nav>
