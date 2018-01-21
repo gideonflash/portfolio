@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-
+import AkqaProjectDescription from "../../../components/ProjectPageComponents/AkqaProjectDescription";
+import AkqaProjectImg from "../../../components/ProjectPageComponents/AkqaProjectImg";
 const Section = styled.div`
   width: 1024px;
   height: 100%;
@@ -17,7 +18,10 @@ const Section = styled.div`
 `;
 const Container = styled.div`
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 37.5% 1fr;
+  @media (max-width: 420px) {
+    grid-template-columns: 1fr;
+  }
 `;
 const ProjectTextContainer = styled.div`
   grid-row-start: 1;
@@ -28,10 +32,13 @@ const ProjectImgContainer = styled.div`
   grid-row-start: 1;
   grid-column-start: 2;
   z-index: 2;
+  justify-self: end;
+  align-self: center;
   @media (max-width: 420px) {
     grid-row-start: 2;
     grid-column-start: 1;
     z-index: 1;
+    justify-self: center;
   }
 `;
 const BkContainer = styled.div`
@@ -55,8 +62,12 @@ const BkText = styled.p`
 const SectionThree = () => (
   <Section>
     <Container>
-      <ProjectTextContainer>1</ProjectTextContainer>
-      <ProjectImgContainer>2</ProjectImgContainer>
+      <ProjectTextContainer>
+        <AkqaProjectDescription />
+      </ProjectTextContainer>
+      <ProjectImgContainer>
+        <AkqaProjectImg />
+      </ProjectImgContainer>
       <BkContainer>
         <BkText>Project</BkText>
       </BkContainer>
