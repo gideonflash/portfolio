@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import AkqaProjectDescription from "../../../components/ProjectPageComponents/AkqaProjectDescription";
 import AkqaProjectImg from "../../../components/ProjectPageComponents/AkqaProjectImg";
+
 const Section = styled.div`
   width: 1024px;
   height: 100%;
