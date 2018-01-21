@@ -32,7 +32,7 @@ const Details = styled.p`
   /* BORN IN AFRICA: */
   font-family: Futura-CondensedMedium;
   font-size: 18px;
-  color: #443d3d;
+  color: #433d3d;
   letter-spacing: 0;
   display: inline-block;
   margin-right: 20px;
@@ -57,7 +57,7 @@ const TechSubHeader = styled.h2`
   /* Tech Stack & Roles:: */
   font-family: Futura-CondensedMedium;
   font-size: 22px;
-  color: #443d3d;
+  color: #433d3d;
   letter-spacing: 0;
   font-weight: normal;
   display: inline-block;

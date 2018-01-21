@@ -20,6 +20,7 @@ const Section = styled.div`
 const Container = styled.div`
   display: grid;
   grid-template-columns: 37.5% 1fr;
+  margin-bottom: 180px;
   @media (max-width: 420px) {
     grid-template-columns: 1fr;
   }
@@ -59,9 +60,40 @@ const BkText = styled.p`
     font-size: 67px;
   }
 `;
+const Text = styled.p`
+  /* Interface design: */
+  font-family: SanFranciscoText-Bold;
+  font-size: 10px;
+  color: #433d3d;
+  letter-spacing: 1.17px;
+  justify-self: end;
+  margin-top: 200px;
+  margin-bottom: 180px;
+  @media (max-width: 420px) {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  @media only screen and (device-width: 768px) {
+    margin-top: 180px;
+    margin-bottom: 100px;
+  }
+`;
 
 const SectionThree = () => (
   <Section>
+    <Text>Project i worked on:</Text>
+    <Container>
+      <ProjectTextContainer>
+        <AkqaProjectDescription />
+      </ProjectTextContainer>
+      <ProjectImgContainer>
+        <AkqaProjectImg />
+      </ProjectImgContainer>
+      <BkContainer>
+        <BkText>Project</BkText>
+      </BkContainer>
+    </Container>
     <Container>
       <ProjectTextContainer>
         <AkqaProjectDescription />
