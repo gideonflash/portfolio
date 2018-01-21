@@ -44,6 +44,7 @@ const ProcessText = styled.div`
 const ProccessHeaderContainer = styled.div``;
 const StepsContainer = styled.div`
   display: grid;
+  margin-top: 80px;
   grid-template-columns: 1fr 1fr 1fr;
   @media (max-width: 420px) {
     grid-template-columns: 1fr;

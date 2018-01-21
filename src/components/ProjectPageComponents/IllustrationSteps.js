@@ -5,9 +5,11 @@ import Squiggle from "./images/Squiggle.svg";
 
 const Container = styled.div`
   display: grid;
+  margin-top: 130px;
   grid-template-columns: 50% 50%;
   @media (max-width: 420px) {
     grid-template-columns: 1fr;
+    margin-top: 80px;
   }
   @media only screen and (device-width: 768px) {
     margin-top: 130px;
