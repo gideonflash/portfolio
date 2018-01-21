@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import SectionTop from "./SectionOne";
 import SectionTwo from "./SectionTwo";
-import SectionThree from "./SectionThree";
+
 import BackgroundLines from "../../components/BackgroundLines";
 
 const Section = styled.div`
@@ -20,6 +20,9 @@ const AppWrapper = styled.div.attrs({
   margin: 28px;
   margin-bottom: 0px;
   margin-top: 0px;
+  @media (max-width: 420px) {
+    margin: 16px;
+  }
   /* here we use the dynamically computed props */
   background-color: ${props => props.backgroundcolor};
 `;
@@ -43,7 +46,6 @@ const AboutPage = props => (
       <Section>
         <SectionTop />
         <SectionTwo />
-        <SectionThree />
       </Section>
     </Wrapper>
   </AppWrapper>
