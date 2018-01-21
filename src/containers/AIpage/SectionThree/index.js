@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import ProccessHeader from "../../../components/ProjectPageComponents/ProccessHeader";
 import Step from "../../../components/ProjectPageComponents/Step";
+import ProjectText from "../../../components/ProjectPageComponents/ProjectText";
 
 const Section = styled.div`
   width: 1024px;
@@ -65,7 +66,9 @@ const SectionThree = () => (
         <illustrationContainer>illustration</illustrationContainer>
       </ProcessStepsContainer>
       <ProcessText>
-        <div>text</div>
+        <div>
+          <ProjectText />
+        </div>
       </ProcessText>
     </ContentContainer>
   </Section>
