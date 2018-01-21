@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import ProccessHeader from "../../../components/ProjectPageComponents/ProccessHeader";
+import Step from "../../../components/ProjectPageComponents/Step";
 
 const Section = styled.div`
   width: 1024px;
@@ -17,6 +18,9 @@ const Section = styled.div`
 const ContentContainer = styled.div`
   display: grid;
   grid-template-columns: 62.5% 1fr;
+  @media (max-width: 420px) {
+    grid-template-columns: 1fr;
+  }
   @media only screen and (device-width: 768px) {
     grid-template-columns: 1fr;
   }
@@ -35,6 +39,9 @@ const ProccessHeaderContainer = styled.div``;
 const StepsContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  @media (max-width: 420px) {
+    grid-template-columns: 1fr;
+  }
 `;
 const illustrationContainer = styled.div``;
 const SectionThree = () => (
@@ -45,9 +52,15 @@ const SectionThree = () => (
           <ProccessHeader />
         </ProccessHeaderContainer>
         <StepsContainer>
-          <div>1</div>
-          <div>2</div>
-          <div>3</div>
+          <div>
+            <Step />
+          </div>
+          <div>
+            <Step />
+          </div>
+          <div>
+            <Step />
+          </div>
         </StepsContainer>
         <illustrationContainer>illustration</illustrationContainer>
       </ProcessStepsContainer>

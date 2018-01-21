@@ -9,6 +9,7 @@ const ProjectType = styled.h1`
   letter-spacing: 1.17px;
   font-weight: normal;
   display: inline-block;
+  margin-left: 10px;
 `;
 const ProjectLine = styled.span`
   display: inline-block;
@@ -27,15 +28,18 @@ const ProjectLine = styled.span`
 
 const Headercontianer = styled.div`
   display: grid;
-  grid-template-columns: 17% 1fr;
+  grid-template-columns: 1fr 17%;
   align-items: center;
+  @media (max-width: 420px) {
+    grid-template-columns: 1fr 23%;
+  }
 `;
 
 const ProccessHeader = () => (
   <div>
     <Headercontianer>
-      <ProjectType>Proccess:</ProjectType>
       <ProjectLine />
+      <ProjectType>Proccess:</ProjectType>
     </Headercontianer>
   </div>
 );
