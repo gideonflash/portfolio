@@ -3,6 +3,7 @@ import styled from "styled-components";
 import ProccessHeader from "../../../components/ProjectPageComponents/ProccessHeader";
 import Step from "../../../components/ProjectPageComponents/Step";
 import ProjectText from "../../../components/ProjectPageComponents/ProjectText";
+import Illustration from "../../../components/ProjectPageComponents/IllustrationSteps";
 
 const Section = styled.div`
   width: 1024px;
@@ -63,7 +64,9 @@ const SectionThree = () => (
             <Step />
           </div>
         </StepsContainer>
-        <illustrationContainer>illustration</illustrationContainer>
+        <illustrationContainer>
+          <Illustration />
+        </illustrationContainer>
       </ProcessStepsContainer>
       <ProcessText>
         <div>

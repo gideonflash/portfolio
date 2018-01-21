@@ -6,6 +6,7 @@ const Text = styled.p`
   font-size: 14px;
   color: #443d3d;
   letter-spacing: 0;
+  margin-top: 4px;
   @media (max-width: 420px) {
     font-size: 13px;
   }
