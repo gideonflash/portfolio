@@ -9,6 +9,9 @@ const Container = styled.div`
   @media (max-width: 420px) {
     grid-template-columns: 1fr;
   }
+  @media only screen and (device-width: 768px) {
+    margin-top: 130px;
+  }
 `;
 const NormalSteps = styled.div`
   display: grid;

@@ -38,6 +38,7 @@ const ProcessStepsContainer = styled.div`
 const ProcessText = styled.div`
   @media only screen and (device-width: 768px) {
     grid-row-start: 2;
+    margin-top: 130px;
   }
 `;
 const ProccessHeaderContainer = styled.div``;
@@ -46,6 +47,9 @@ const StepsContainer = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   @media (max-width: 420px) {
     grid-template-columns: 1fr;
+  }
+  @media only screen and (device-width: 768px) {
+    margin-top: 70px;
   }
 `;
 const illustrationContainer = styled.div``;
