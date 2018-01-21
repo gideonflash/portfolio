@@ -5,7 +5,7 @@ import DesignChallenge from "../../../components/ProjectPageComponents/DesignCha
 
 const Section = styled.div`
   width: 1024px;
-  height: 768px;
+  height: 100%;
   @media (max-width: 420px) {
     width: 300px;
   }
