@@ -192,7 +192,7 @@ const LandingProjectTwo = props => (
         <RolesLandingList />
       </Box2>
       <Box3>
-        <ProjectAboutLanding />
+        <ProjectAboutLanding about="AKQA is a digital agency that specialises in creating digital services and products." />
       </Box3>
     </ProjectContainer>
     <ProjectTileContianer>
