@@ -151,24 +151,33 @@ const SectionTwo = () => (
     <SectionTwoContianer>
       <ValuePropContianer>
         <ValuePropText>
-          I would like to say<br /> something cool <br /> so sound super smart
+          Crafting exceptional user interfaces<br /> that make life better
         </ValuePropText>
       </ValuePropContianer>
       <ProfileTextContainer>
         <ProfileText>
-          Subject as I can. I have been driven by the need to understand,
-          testing my learning and trying as hard as I can to disprove evidence
-          that I think is true as a way of discovering. Adopting the mental
-          models Subject as I can. I have been driven by the need to understand,
-          testing my learning and trying as hard as I can to disprove evidence
-          that I think is true as a way of discovering. Adopting the mental
-          models
+          My days are spent shaping and evolving product web/mobile experiences.
+          No easy task but worthwhile. The discipline of choice in this
+          endeavour has been UI engineering/ front-end development.
         </ProfileText>
         <ProfileText>
-          Subject as I can. I have been driven by the need to understand,
-          testing my learning and trying as hard as I can to disprove evidence
-          that I think is true as a way of discovering. Adopting the mental
-          models
+          This is how you can define my experience in the past years. I have
+          managed to shape product direction for top brands in the world from
+          the likes of Google and Taghuer to name a few and also help startups
+          design and build user interfaces that have helped them break into new
+          markets by making their product more easy to use and understand.
+        </ProfileText>
+        <ProfileText>
+          So it can never be a surprise seeing me with a buddle of post-it notes
+          and sharpie iterating over ideas or using Sketch and Principle to
+          tweak and create UI elements to implement in my front-end code base or
+          better yet in atom employing my javascript skills to bring the designs
+          to life. All in all, I am UI engineer who thrives on creating
+          interfaces that provide value; meaning performance, usability and ease
+          of use(pardon the buzz word bingo there" I really mean it though") are
+          top priorities in ensuring products and services deliver on their
+          intended value proposition. If you feel I might be a good fit for your
+          company lets chat or grab a coffee.
         </ProfileText>
         <div>
           <SkillsList>
