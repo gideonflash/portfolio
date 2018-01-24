@@ -165,7 +165,7 @@ const SectionTwo = () => (
           managed to shape product direction for top brands in the world from
           the likes of Google and Taghuer to name a few and also help startups
           design and build user interfaces that have helped them break into new
-          markets by making their product more easy to use and understand.
+          markets by making their product more easy to use and understandable.
         </ProfileText>
         <ProfileText>
           So it can never be a surprise seeing me with a buddle of post-it notes
