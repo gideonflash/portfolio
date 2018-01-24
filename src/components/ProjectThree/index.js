@@ -192,7 +192,7 @@ const LandingProjectThree = props => (
         <RolesLandingList />
       </Box2>
       <Box3>
-        <ProjectAboutLanding />
+        <ProjectAboutLanding about="Analytics Intelligence is a data analytics and artificial intelligence company that provides artificial intelligence software solutions through its unified analytics platform the AI Platform and digital assistant DATA solution for the enterprise ." />
       </Box3>
     </ProjectContainer>
     <ProjectTileContianer>

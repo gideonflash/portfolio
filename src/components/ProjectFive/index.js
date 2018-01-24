@@ -192,7 +192,7 @@ const LandingProjectFive = props => (
         <RolesLandingList />
       </Box2>
       <Box3>
-        <ProjectAboutLanding />
+        <ProjectAboutLanding about="Cashkaching is Nigerias first free lottery service. An easy and simple way to enjoy the perks of what kind of entertainment the internet can provide. User can play the lottery earn points and redeem points collected from their platform activity for any vouchers of their choice." />
       </Box3>
     </ProjectContainer>
     <ProjectTileContianer>
