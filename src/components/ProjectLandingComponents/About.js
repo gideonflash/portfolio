@@ -30,23 +30,19 @@ const AboutCompanyLine = styled.span`
 
 const AboutCompany = styled.p`
   font-family: SanFranciscoText-Regular;
-  font-size: 12px;
+  font-size: 14px;
   color: #443d3d;
   letter-spacing: 0;
 `;
 
-const ProjectAboutLanding = () => (
+const ProjectAboutLanding = props => (
   <div>
     <div>
       <AboutCompanyType>About Company:</AboutCompanyType>
       <AboutCompanyLine />
     </div>
     <div>
-      <AboutCompany>
-        Subject as I can. I have been driven by the need to understand, testing
-        my learning and trying as hard as I can to disprove evidence that I
-        think is true as a way of discovering. Adopting the mental models
-      </AboutCompany>
+      <AboutCompany>{props.about}</AboutCompany>
     </div>
   </div>
 );

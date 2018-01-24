@@ -29,7 +29,7 @@ const RoleLine = styled.span`
 
 const SkillsListItem = styled.li`
   font-family: Futura-CondensedLight;
-  font-size: 12px;
+  font-size: 14px;
   color: #edeee8;
   letter-spacing: 0;
   display: inline-block;
@@ -59,7 +59,7 @@ const Slash = styled.span`
 const RolesLandingList = () => (
   <div>
     <div>
-      <RoleType>Role & TechStack:</RoleType>
+      <RoleType>Tools & TechStack:</RoleType>
       <RoleLine />
       <div>
         <SkillsList>

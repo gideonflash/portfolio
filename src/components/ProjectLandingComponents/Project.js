@@ -51,7 +51,7 @@ const ProjectTypeLanding = () => (
           <ProjectTypeItem>PRODUCT DESIGN</ProjectTypeItem>
         </li>
         <li>
-          <ProjectTypeItem>WEB DESIGN</ProjectTypeItem>
+          <ProjectTypeItem>WEB/MOBILE DESIGN</ProjectTypeItem>
         </li>
         <li>
           <ProjectTypeItem>UI DEVELOPMENT</ProjectTypeItem>

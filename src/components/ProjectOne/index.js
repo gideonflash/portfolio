@@ -192,7 +192,7 @@ const LandingProjectOne = props => (
         <RolesLandingList />
       </Box2>
       <Box3>
-        <ProjectAboutLanding />
+        <ProjectAboutLanding about="Voguepay represents one of the few companies in Africa leading the charger in creating better payment services for Africans. With over 100 000 customers and millions in processed in transactions they continue to grow. " />
       </Box3>
     </ProjectContainer>
     <ProjectTileContianer>
