@@ -19,7 +19,20 @@ const SectionOne = styled.div`
 
 const SectionTop = () => (
   <SectionOne>
-    <ProjectHeader first="AKQA" />
+    <ProjectHeader
+      first="AKQA"
+      stack1="Sketch"
+      slash1="//"
+      stack2="Keynote"
+      slash2="//"
+      stack3="Business Model Canavs"
+      slash3="//"
+      stack4="Invision"
+      slash4="//"
+      stack5="Html, JavaScript & Css"
+      slash6="//"
+      stack6="Gulp"
+    />
   </SectionOne>
 );
 

@@ -76,12 +76,22 @@ const ProjectHeader = props => (
           {props.first} <br /> {props.second}
         </Name>
         <TechStackContainer>
-          <TechSubHeader>TechStack & Roles:</TechSubHeader>
-          <Details>FRONT-END DEVELOPMENT</Details>
-          <Details>//</Details>
-          <Details>USER EXPERINCE</Details>
-          <Details>//</Details>
-          <Details>PRODUCT DESIGN</Details>
+          <TechSubHeader>Tools & TechStack:</TechSubHeader>
+          <Details>{props.stack1}</Details>
+          <Details>{props.slash1}</Details>
+          <Details>{props.stack2}</Details>
+          <Details>{props.slash2}</Details>
+          <Details>{props.stack3}</Details>
+          <Details>{props.slash3}</Details>
+          <Details>{props.stack4}</Details>
+          <Details>{props.slash4}</Details>
+          <Details>{props.stack5}</Details>
+          <Details>{props.slash5}</Details>
+          <Details>{props.stack6}</Details>
+          <Details>{props.slash6}</Details>
+          <Details>{props.stack7}</Details>
+          <Details>{props.slash7}</Details>
+          <Details>{props.stack8}</Details>
         </TechStackContainer>
       </Namewrapper>
     </NameContainer>
