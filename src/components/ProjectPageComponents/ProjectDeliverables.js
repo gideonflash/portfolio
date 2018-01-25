@@ -48,13 +48,16 @@ const ProjectDeliverables = () => (
     <ProjectTypeListContianer>
       <List>
         <li>
-          <ProjectTypeItem>PRODUCT DESIGN</ProjectTypeItem>
+          <ProjectTypeItem>Investment Deck design and copy</ProjectTypeItem>
         </li>
         <li>
-          <ProjectTypeItem>WEB DESIGN</ProjectTypeItem>
+          <ProjectTypeItem>Brand Logo</ProjectTypeItem>
         </li>
         <li>
-          <ProjectTypeItem>UI DEVELOPMENT</ProjectTypeItem>
+          <ProjectTypeItem>UI interface design</ProjectTypeItem>
+        </li>
+        <li>
+          <ProjectTypeItem>Front-end development</ProjectTypeItem>
         </li>
       </List>
     </ProjectTypeListContianer>

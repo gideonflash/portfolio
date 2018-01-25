@@ -20,7 +20,7 @@ const SectionOne = styled.div`
 
 const SectionTop = () => (
   <SectionOne>
-    <ProjectHeader />
+    <ProjectHeader first="ANALYTICS" second="INTELLIGENCE" />
   </SectionOne>
 );
 

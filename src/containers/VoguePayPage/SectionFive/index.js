@@ -1,11 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-
-import ProjectHeader from "../../../components/ProjectHeader";
+import NextProject from "../../../components/ProjectPageComponents/NextProject";
 
 const SectionOne = styled.div`
   width: 1024px;
-  height: 768px;
+  height: 100%;
+  margin-bottom: 80px;
+  margin-top: 80px;
   @media (max-width: 420px) {
     width: 300px;
     height: 100%;
@@ -18,10 +19,12 @@ const SectionOne = styled.div`
   }
 `;
 
-const SectionTop = () => (
+const SectionFive = () => (
   <SectionOne>
-    <ProjectHeader first="VOGUEPAY" second="PAYMENTS" />
+    <div>
+      <NextProject />
+    </div>
   </SectionOne>
 );
 
-export default SectionTop;
+export default SectionFive;

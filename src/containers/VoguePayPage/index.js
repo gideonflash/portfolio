@@ -3,6 +3,8 @@ import styled from "styled-components";
 import SectionTop from "./SectionOne";
 import SectionTwo from "./SectionTwo";
 import SectionThree from "./SectionThree";
+import SectionFour from "./SectionFour";
+import SectionFive from "./SectionFive";
 import BackgroundLines from "../../components/BackgroundLines";
 
 const Section = styled.div`
@@ -40,6 +42,8 @@ const VoguePayPage = () => (
         <SectionTop />
         <SectionTwo />
         <SectionThree />
+        <SectionFour />
+        <SectionFive />
       </Section>
     </Wrapper>
   </AppWrapper>

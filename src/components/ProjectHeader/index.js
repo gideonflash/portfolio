@@ -68,12 +68,12 @@ const TechSubHeader = styled.h2`
   }
 `;
 
-const ProjectHeader = () => (
+const ProjectHeader = props => (
   <Container>
     <NameContainer>
       <Namewrapper>
         <Name>
-          ANALYTICS <br /> INTELLIGENCE
+          {props.first} <br /> {props.second}
         </Name>
         <TechStackContainer>
           <TechSubHeader>TechStack & Roles:</TechSubHeader>
@@ -81,7 +81,7 @@ const ProjectHeader = () => (
           <Details>//</Details>
           <Details>USER EXPERINCE</Details>
           <Details>//</Details>
-          <Details>DESIGN</Details>
+          <Details>PRODUCT DESIGN</Details>
         </TechStackContainer>
       </Namewrapper>
     </NameContainer>
