@@ -9,7 +9,7 @@ const Line = styled.div.attrs({
 })`
   position: fixed;
   z-index: 0;
-  top: 60px;
+  top: 61px;
   bottom: 131px;
   left: 10%;
   border: 0.5px solid;

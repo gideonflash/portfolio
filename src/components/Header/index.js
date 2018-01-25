@@ -42,7 +42,7 @@ const Tablinks = styled(NavLink)`
   display: block;
 
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 29.5px;
   text-decoration: none;
   /* PROFILE: */
   font-family: FuturaBT-Medium;
@@ -58,8 +58,21 @@ const Tablinks = styled(NavLink)`
   }
 `;
 
+const TablinksAkqa = Tablinks.extend`
+  padding: 14px 47.5px;
+`;
+const TablinksVp = Tablinks.extend`
+  padding: 14px 31.5px;
+`;
+const TablinksAi = Tablinks.extend`
+  padding: 14px 58.5px;
+`;
+const TablinksCk = Tablinks.extend`
+  padding: 14px 19.5px;
+`;
+
 const Profile = styled.p`
-  margin-right: 48px;
+  margin-right: 0px;
 `;
 
 const LandingPageNavigation = () => (
@@ -73,24 +86,24 @@ const LandingPageNavigation = () => (
         </Tablinks>
       </ListNavigation>
       <ListNavigation>
-        <Tablinks to="/akqa">
+        <TablinksAkqa to="/akqa">
           <Profile>AKQA</Profile>
-        </Tablinks>
+        </TablinksAkqa>
       </ListNavigation>
       <ListNavigation>
-        <Tablinks to="/voguepay">
+        <TablinksVp to="/voguepay">
           <Profile>VOGUEPAY</Profile>
-        </Tablinks>
+        </TablinksVp>
       </ListNavigation>
       <ListNavigation>
-        <Tablinks to="/ai">
+        <TablinksAi to="/ai">
           <Profile>AI</Profile>
-        </Tablinks>
+        </TablinksAi>
       </ListNavigation>
       <ListNavigation>
-        <Tablinks to="/cashkaching">
+        <TablinksCk to="/cashkaching">
           <Profile>CASHKACHING</Profile>
-        </Tablinks>
+        </TablinksCk>
       </ListNavigation>
     </Nav>
   </NavContainer>
