@@ -21,15 +21,11 @@ const Text = styled.p`
   margin-top: 30px;
 `;
 
-const AkqaProjectDescription = () => (
+const AkqaProjectDescription = props => (
   <Container>
     <div>
-      <Title>Scappie</Title>
-      <Text>
-        Subject as I can. I have been driven by the need to understand, testing
-        my learning and trying as hard as I can to disprove evidence that I
-        think is true as a way of discovering. Adopting the mental models{" "}
-      </Text>
+      <Title>{props.projectName}</Title>
+      <Text>{props.description}</Text>
     </div>
   </Container>
 );

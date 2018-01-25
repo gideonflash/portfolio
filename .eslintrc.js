@@ -4,6 +4,7 @@ module.exports = {
   rules: {
     "react/jsx-filename-extension": 0,
     "react/jsx-no-comment-textnodes": 0,
+    "max-len": 0,
     quotes: 0,
     "react/prop-types": 0,
     "comma-dangle": 0,
