@@ -2,11 +2,11 @@ import React from "react";
 import styled from "styled-components";
 import AiImg from "./images/Dashboard.png";
 
-const Container = styled.p.attrs({
+const Container = styled.div.attrs({
   // we can define static props
 
   // or we can define dynamic ones
-  backgroundcolor: props => props.bkcolour || "#433d3d"
+  backgroundcolor: props => props.bacolour || "#433d3d"
 })`
   border-radius: 4px;
   height: 524px;
@@ -75,7 +75,7 @@ const Text = styled.p`
 const ProjectImg = props => (
   <Wrapper>
     <Text>UI development</Text>
-    <Container bkcolour={props.colour}>
+    <Container bacolour={props.colour}>
       <Self>
         <ImgWeb src={AiImg} />
       </Self>
