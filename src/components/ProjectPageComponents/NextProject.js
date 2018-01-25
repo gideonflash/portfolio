@@ -54,9 +54,9 @@ const Next = styled.p`
   }
 `;
 
-const NextProject = () => (
+const NextProject = props => (
   <SectionNextProject>
-    <Next> VOGUEPAY</Next>
+    <Next> {props.name}</Next>
     <div>
       <Grid>
         <Img src={Arrow} />
