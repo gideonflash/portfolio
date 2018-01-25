@@ -9,10 +9,15 @@ const NameContainer = styled.div`
   display: grid;
 `;
 
-const Name = styled.div`
+const Name = styled.div.attrs({
+  // we can define static props
+
+  // or we can define dynamic ones
+  backgroundcolor: props => props.bkcolour || "#433d3d"
+})`
   font-family: Futura-Bold;
   font-size: 92px;
-  color: #433d3d;
+
   letter-spacing: 0;
   line-height: 87px;
   @media (max-width: 420px) {
@@ -27,7 +32,10 @@ const Name = styled.div`
     font-size: 60px;
     line-height: 61px;
   }
+  /* here we use the dynamically computed props */
+  color: ${props => props.backgroundcolor};
 `;
+
 const Details = styled.p`
   /* BORN IN AFRICA: */
   font-family: Futura-CondensedMedium;
@@ -72,7 +80,7 @@ const ProjectHeader = props => (
   <Container>
     <NameContainer>
       <Namewrapper>
-        <Name>
+        <Name bkcolour={props.colour}>
           {props.first} <br /> {props.second}
         </Name>
         <TechStackContainer>

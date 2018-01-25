@@ -63,13 +63,23 @@ const SectionThree = () => (
         </ProccessHeaderContainer>
         <StepsContainer>
           <div>
-            <Step />
+            <Step
+              colour="#ffffff"
+              bkNumber="1"
+              number="1"
+              text="Product Design"
+            />
           </div>
           <div>
-            <Step />
+            <Step colour="#ffffff" bkNumber="2" number="1" text="UI Design" />
           </div>
           <div>
-            <Step />
+            <Step
+              colour="#ffffff"
+              bkNumber="3"
+              number="3"
+              text="UI Development"
+            />
           </div>
         </StepsContainer>
         <illustrationContainer>

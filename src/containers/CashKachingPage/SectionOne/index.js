@@ -22,7 +22,8 @@ const SectionTop = () => (
   <SectionOne>
     <ProjectHeader
       first="CASHKACHING"
-      second="LOTTO"
+      colour="#ffffff"
+      second=""
       stack1="Sketch"
       slash1="//"
       stack2="Keynote"

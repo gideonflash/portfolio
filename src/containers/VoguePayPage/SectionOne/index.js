@@ -23,6 +23,7 @@ const SectionTop = () => (
     <ProjectHeader
       first="VOGUEPAY"
       second=""
+      colour="#ffffff"
       stack1="Sketch"
       slash1="//"
       stack2="Keynote"

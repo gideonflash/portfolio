@@ -1,18 +1,25 @@
 import React from "react";
 import styled from "styled-components";
 
-const BkNumber = styled.p`
-  /* 1 copy: */
-  opacity: 0.51;
+const BkNumber = styled.p.attrs({
+  // we can define static props
+
+  // or we can define dynamic ones
+  backgroundcolor: props => props.bkcolour || "#433d3d"
+})`
+  opacity: 0.2;
   font-family: Futura-Bold;
   font-size: 96px;
-  color: #f48859;
+
   letter-spacing: 0;
   grid-row-start: 1;
   grid-column-start: 1;
   z-index: 1;
   margin: 0px;
+  /* here we use the dynamically computed props */
+  color: ${props => props.backgroundcolor};
 `;
+
 const NumberProccess = styled.p`
   /* 1: */
   font-family: Futura-Bold;
@@ -46,13 +53,13 @@ const Container = styled.div`
   }
 `;
 
-const Step = () => (
+const Step = props => (
   <Container>
     <NumberContainer>
-      <BkNumber>1</BkNumber>
-      <NumberProccess>1</NumberProccess>
+      <BkNumber bkcolour={props.colour}>{props.bkNumber}</BkNumber>
+      <NumberProccess>{props.number}</NumberProccess>
     </NumberContainer>
-    <Text>Product Design</Text>
+    <Text>{props.text}</Text>
   </Container>
 );
 
