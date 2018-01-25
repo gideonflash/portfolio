@@ -58,9 +58,6 @@ const Tablinks = styled(NavLink)`
   }
 `;
 
-const Experiance = styled.p`
-  margin-right: 141px;
-`;
 const Profile = styled.p`
   margin-right: 48px;
 `;
@@ -69,14 +66,30 @@ const LandingPageNavigation = () => (
   <NavContainer>
     <Nav>
       <BrandNavigation to="/">Gideon</BrandNavigation>
-      <ListNavigation>
-        <Tablinks to="/akqa">
-          <Experiance>EXPERIANCE</Experiance>
-        </Tablinks>
-      </ListNavigation>
+
       <ListNavigation>
         <Tablinks to="/about">
           <Profile>ABOUT</Profile>
+        </Tablinks>
+      </ListNavigation>
+      <ListNavigation>
+        <Tablinks to="/akqa">
+          <Profile>AKQA</Profile>
+        </Tablinks>
+      </ListNavigation>
+      <ListNavigation>
+        <Tablinks to="/voguepay">
+          <Profile>VOGUEPAY</Profile>
+        </Tablinks>
+      </ListNavigation>
+      <ListNavigation>
+        <Tablinks to="/ai">
+          <Profile>AI</Profile>
+        </Tablinks>
+      </ListNavigation>
+      <ListNavigation>
+        <Tablinks to="/cashkaching">
+          <Profile>CASHKACHING</Profile>
         </Tablinks>
       </ListNavigation>
     </Nav>
