@@ -74,22 +74,23 @@ const SectionTwo = () => (
           I would like to say<br /> something cool <br /> so sound super smart
         </ValuePropText>
         <ProfileText>
-          Subject as I can. I have been driven by the need to understand,
-          testing my learning and trying as hard as I can to disprove evidence
-          that I think is true as a way of discovering. Adopting the mental
-          models Subject as I can. I have been driven by the need to understand,
-          testing my learning and trying as hard as I can to disprove evidence
-          that I think is true as a way of discovering. Adopting the mental
-          models
+          I am a farm boy at heart, the only thing I can never forget doing is
+          rearing chickens and selling cows, the main aim at the farm was to
+          solve a problem and ensure you were resourceful enough to use the
+          tools that were at your disposal. This might seem out of context but
+          up until I started working at AKQA, I hadn’t realized that not much
+          had changed only the tools. The past year I have dedicated my time as
+          an Associate Product Designer, creating and shaping digital products
+          for clients. Before AQKA I equipped myself with learning how to code,
+          which has added systems thinking to my work.
           <br />
           <br />
-          Subject as I can. I have been driven by the need to understand,
-          testing my learning and trying as hard as I can to disprove evidence
-          that I think is true as a way of discovering. Adopting the mental
-          models Subject as I can. I have been driven by the need to understand,
-          testing my learning and trying as hard as I can to disprove evidence
-          that I think is true as a way of discovering. Adopting the mental
-          models
+          My dad said it clearly growing up “what you bring to the kitchen table
+          is not your accomplishments, it’s the problems that you have solved
+          during the day, these shape your thinking for the next problem”. With
+          an increasing reliance on digital products, the landscape has changed
+          from how I grew up. That is why programming has become a tool or
+          choice.
         </ProfileText>
       </div>
     </AboutContainer>

@@ -18,7 +18,7 @@ const Section = styled.div`
 const SectionFour = () => (
   <Section>
     <div>
-      <ProjectImg colour="#ffffff" />
+      <ProjectImg colour="#4A90E2" />
     </div>
   </Section>
 );
