@@ -6,8 +6,6 @@ import CashkachinPage from "../CashKachingPage";
 import VoguePayPage from "../VoguePayPage";
 import AkqaPage from "../AkqaPage";
 import AIpage from "../AIpage";
-import AshleenLesterPage from "../AshleenLesterPage";
-import GeneralAssemblyPage from "../GeneralAssemblyPage";
 import Aboutpage from "../AboutPage";
 
 const AppRoutes = () => (
@@ -23,16 +21,7 @@ const AppRoutes = () => (
       <Route exact path="/voguepay" render={() => <VoguePayPage />} />
       <Route exact path="/akqa" render={() => <AkqaPage colour="#EDEEE8" />} />
       <Route exact path="/ai" render={() => <AIpage colour="#F79F79" />} />
-      <Route
-        exact
-        path="/ashleenlester"
-        render={() => <AshleenLesterPage colour="red" />}
-      />
-      <Route
-        exact
-        path="/generalassembly"
-        render={() => <GeneralAssemblyPage colour="#D21B3F" />}
-      />
+
       <Route
         exact
         path="/about"
