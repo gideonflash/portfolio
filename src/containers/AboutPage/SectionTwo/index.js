@@ -17,6 +17,7 @@ const Section = styled.div`
 const AboutContainer = styled.div`
   display: grid;
   grid-template-columns: 37.5% 50%;
+  margin-bottom: 20%;
   @media (max-width: 420px) {
     grid-template-columns: 1fr;
   }
