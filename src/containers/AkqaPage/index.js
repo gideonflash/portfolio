@@ -3,6 +3,7 @@ import styled from "styled-components";
 import SectionTop from "./SectionOne";
 import SectionTwo from "./SectionTwo";
 import SectionThree from "./SectionThree";
+import SectionFive from "./SectionFive";
 import BackgroundLines from "../../components/BackgroundLines";
 
 const Section = styled.div`
@@ -48,6 +49,7 @@ const AkqaPage = props => (
         <SectionTop />
         <SectionTwo />
         <SectionThree />
+        <SectionFive />
       </Section>
     </Wrapper>
   </AppWrapper>

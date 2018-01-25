@@ -22,7 +22,7 @@ const SectionOne = styled.div`
 const SectionFive = () => (
   <SectionOne>
     <div>
-      <NextProject name="AKQA" />
+      <NextProject name="VOGUEPAY" project="voguepay" />
     </div>
   </SectionOne>
 );

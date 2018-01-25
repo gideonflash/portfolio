@@ -60,7 +60,9 @@ const NextProject = props => (
     <div>
       <Grid>
         <Img src={Arrow} />
-        <ViewCaseStudyLink to="/voguepay">VIEW NEXT PROJECT</ViewCaseStudyLink>
+        <ViewCaseStudyLink to={`/${props.project}`}>
+          VIEW NEXT PROJECT
+        </ViewCaseStudyLink>
       </Grid>
     </div>
   </SectionNextProject>
