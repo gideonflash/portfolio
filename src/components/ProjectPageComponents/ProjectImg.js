@@ -2,9 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import AiImg from "./images/Dashboard.png";
 
-const Container = styled.div`
-  /* Rectangle 21: */
-  background: #f58d61;
+const Container = styled.p.attrs({
+  // we can define static props
+
+  // or we can define dynamic ones
+  backgroundcolor: props => props.bkcolour || "#433d3d"
+})`
   border-radius: 4px;
   height: 524px;
   width: 824px;
@@ -22,7 +25,10 @@ const Container = styled.div`
     width: 531px;
     margin-top: 40px;
   }
+  /* here we use the dynamically computed props */
+  background-color: ${props => props.backgroundcolor};
 `;
+
 const ImgWeb = styled.img`
   @media (max-width: 420px) {
     height: 181px;
@@ -34,6 +40,7 @@ const ImgWeb = styled.img`
     width: 368px;
   }
 `;
+
 const Wrapper = styled.div`
   display: grid;
   justify-items: center;
@@ -65,10 +72,10 @@ const Text = styled.p`
   justify-self: end;
 `;
 
-const ProjectImg = () => (
+const ProjectImg = props => (
   <Wrapper>
     <Text>UI development</Text>
-    <Container>
+    <Container bkcolour={props.colour}>
       <Self>
         <ImgWeb src={AiImg} />
       </Self>

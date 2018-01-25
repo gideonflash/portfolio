@@ -5,7 +5,7 @@ const BkNumber = styled.p.attrs({
   // we can define static props
 
   // or we can define dynamic ones
-  backgroundcolor: props => props.bkcolour || "#433d3d"
+  backgroundcolor: props => props.bkcolour || "#ffffff"
 })`
   opacity: 0.2;
   font-family: Futura-Bold;
