@@ -203,7 +203,10 @@ const SectionTwo = () => (
         </ProfileText>
         <div>
           <ContactMe>Contact me:</ContactMe>
-          <Email>gideonkadzura@gmail.com</Email>
+          <LinkedInLink href="mailto:gideonkadzura@gmail.com">
+            <Email>gideonkadzura@gmail.com</Email>
+          </LinkedInLink>
+
           <PhoneNumber>07480 134 176</PhoneNumber>
         </div>
         <div>
