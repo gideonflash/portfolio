@@ -6,6 +6,10 @@ import SeekImg from "../../../components/ProjectPageComponents/images/seek.png";
 import ConductorImg from "../../../components/ProjectPageComponents/images/conductor.png";
 import BackpackImg from "../../../components/ProjectPageComponents/images/backpack.png";
 import IrisImg from "../../../components/ProjectPageComponents/images/airbnb.png";
+import Scappie from "./pdf/scappie.pdf";
+import Conductor from "./pdf/conductor.pdf";
+import Seek from "./pdf/googleseek.pdf";
+import Backpack from "./pdf/backpack.pdf";
 
 const Section = styled.div`
   width: 1024px;
@@ -140,7 +144,9 @@ const SectionThree = () => (
             <Img src={ProjImg} />
           </ImgContainer>
           <div>
-            <Pdf>PDF</Pdf>
+            <Pdf href={Scappie} download="JamieOliver Project - Scappie">
+              PDF
+            </Pdf>
           </div>
         </ContainerImg>
       </ProjectImgContainer>
@@ -162,7 +168,9 @@ const SectionThree = () => (
             <Img src={SeekImg} />
           </ImgContainer>
           <div>
-            <Pdf>PDF</Pdf>
+            <Pdf href={Seek} download="Google Project - Google Seek">
+              PDF
+            </Pdf>
           </div>
         </ContainerImg>
       </ProjectImgContainer>
@@ -183,7 +191,9 @@ const SectionThree = () => (
             <Img src={ConductorImg} />
           </ImgContainer>
           <div>
-            <Pdf>PDF</Pdf>
+            <Pdf href={Conductor} download="Womens Watch Project - Conductor">
+              PDF
+            </Pdf>
           </div>
         </ContainerImg>
       </ProjectImgContainer>
@@ -204,7 +214,9 @@ const SectionThree = () => (
             <Img src={BackpackImg} />
           </ImgContainer>
           <div>
-            <Pdf>PDF</Pdf>
+            <Pdf href={Backpack} download="Venture design Project - Backpack">
+              PDF
+            </Pdf>
           </div>
         </ContainerImg>
       </ProjectImgContainer>
@@ -224,9 +236,7 @@ const SectionThree = () => (
           <ImgContainer>
             <Img src={IrisImg} />
           </ImgContainer>
-          <div>
-            <Pdf>PDF</Pdf>
-          </div>
+          <div />
         </ContainerImg>
       </ProjectImgContainer>
       <BkContainer>

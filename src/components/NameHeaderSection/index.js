@@ -117,10 +117,10 @@ const NameAndSkills = () => (
   <Container>
     <NameContainer>
       <SkillDiv>
-        <Skill>Product Design</Skill>
-        <Skill1>User experince</Skill1>
-        <Skill2>Interface design</Skill2>
-        <Skill3>Programming</Skill3>
+        <Skill>JavaScript, Html & Css</Skill>
+        <Skill1>React.js</Skill1>
+        <Skill2>Sketch</Skill2>
+        <Skill3>Principle</Skill3>
       </SkillDiv>
       <Namewrapper>
         <Name>GIDEON</Name>
