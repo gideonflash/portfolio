@@ -43,7 +43,11 @@ const SectionTwo = () => (
       <DeliverablecContianer>
         <ProjectDeliverables />
       </DeliverablecContianer>
-      <DesignChallenge2 />
+      <DesignChallenge2
+        headertextOne="Creating products and services"
+        headertextTwo="for existing and potential clients."
+        paragraph1="Structured, hands-on end-to-end product development. Which involves working on client briefs and investment opportunity projects. Collaborating with multiple disciplines to drive product development forward. Defining product vision and communicating work to product teams and executive leadership.  "
+      />
     </ContentContainer>
   </Section>
 );

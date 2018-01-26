@@ -59,22 +59,21 @@ const Headercontianer = styled.div`
   }
 `;
 
-const DesignChallenge = () => (
+const DesignChallenge = props => (
   <div>
     <Headercontianer>
-      <ProjectType>Design challenge:</ProjectType>
+      <ProjectType>Project summary:</ProjectType>
       <ProjectLine />
     </Headercontianer>
     <ValuePropText>
-      I would like to say<br /> something cool <br /> so sound super smart
+      {props.headertextOne}
+      <br /> {props.headertextTwo}
     </ValuePropText>
     <ProfileText>
-      Subject as I can. I have been driven by the need to understand, testing my
-      learning and trying as hard as I can to disprove evidence that I think is
-      true as a way of discovering. Adopting the mental models Subject as I can.
-      I have been driven by the need to understand, testing my learning and
-      trying as hard as I can to disprove evidence that I think is true as a way
-      of discovering. Adopting the mental models
+      {props.paragraph1}
+      <br />
+      <br />
+      {props.paragraph2}
     </ProfileText>
   </div>
 );

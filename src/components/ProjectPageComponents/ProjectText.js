@@ -19,14 +19,7 @@ const Text = styled.p`
 
 const ProjectText = () => (
   <div>
-    <Text>
-      Subject as I can. I have been driven by the need to understand, testing my
-      learning and trying as hard as I can to disprove evidence that I think is
-      true as a way of discovering. Adopting the mental models Subject as I can.
-      I have been driven by the need to understand, testing my learning and
-      trying as hard as I can to disprove evidence that I think is true as a way
-      of discovering. Adopting the mental models
-    </Text>
+    <Text />
   </div>
 );
 

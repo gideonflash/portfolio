@@ -43,7 +43,12 @@ const SectionTwo = () => (
       <DeliverablecContianer>
         <ProjectDeliverables />
       </DeliverablecContianer>
-      <DesignChallenge2 />
+      <DesignChallenge2
+        headertextOne="In search"
+        headertextTwo="of new opportunities."
+        paragraph1="CashKaching allows users to play in free daily, weekly and monthly lotto draws and gives them the chance to win money, discover deals and participate in various tasks for rewards. It's an alternative way to deliver entertainment, intrigue and put some extra money in users pockets."
+        paragraph2="This is spin-off project from the VoguePay group. I was brought in just as the initial concept was being developed. Having conversations with the CEO it was clear he wanted to elevate the concept from its initial state. I help redefine the concept by working on the interface design and currently working on the UI development."
+      />
     </ContentContainer>
   </Section>
 );

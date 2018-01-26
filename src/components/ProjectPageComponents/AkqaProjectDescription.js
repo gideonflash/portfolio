@@ -15,7 +15,7 @@ const Title = styled.h1`
 const Text = styled.p`
   /* Subject as I can. I Copy: */
   font-family: SanFranciscoText-Regular;
-  font-size: 12px;
+  font-size: 14px;
   color: #443d3d;
   letter-spacing: 0;
   margin-top: 30px;
