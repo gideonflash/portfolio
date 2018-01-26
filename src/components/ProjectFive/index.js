@@ -91,6 +91,9 @@ const ViewCaseStudyLink = styled(Link)`
   color: #433d3d;
   letter-spacing: 1.63px;
   text-decoration: none;
+  &:hover {
+    color: #b4211e;
+  }
 `;
 const Grid = styled.div`
   display: grid;
@@ -189,7 +192,22 @@ const LandingProjectFive = props => (
         <ProjectTypeLanding />
       </Box1>
       <Box2>
-        <RolesLandingList />
+        <RolesLandingList
+          tech1="JAVSSCRIPT, HTML & CSS"
+          slash1="//"
+          tech2="REACT.JS"
+          slash2="//"
+          tech3="WEBPACK"
+          slash3="//"
+          tech4="SKETCH"
+          slash4="//"
+          tech5="GRAPHQL"
+          slash5="//"
+          tech6="APOLLO"
+          slash6="//"
+          tech7="INVISION"
+          slash7=""
+        />
       </Box2>
       <Box3>
         <ProjectAboutLanding about="Cashkaching is Nigerias first free lottery service. An easy and simple way to enjoy the perks of what kind of entertainment the internet can provide. User can play the lottery earn points and redeem points collected from their platform activity for any vouchers of their choice." />

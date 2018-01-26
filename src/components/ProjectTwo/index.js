@@ -91,6 +91,9 @@ const ViewCaseStudyLink = styled(Link)`
   color: #433d3d;
   letter-spacing: 1.63px;
   text-decoration: none;
+  &:hover {
+    color: #b4211e;
+  }
 `;
 const Grid = styled.div`
   display: grid;
@@ -189,7 +192,22 @@ const LandingProjectTwo = props => (
         <ProjectTypeLanding />
       </Box1>
       <Box2>
-        <RolesLandingList />
+        <RolesLandingList
+          tech1="JAVSSCRIPT, HTML & CSS"
+          slash1="//"
+          tech2="GRUNT/GULP"
+          slash2="//"
+          tech3="GIT/GITHUB"
+          slash3="//"
+          tech4="SKETCH"
+          slash4="//"
+          tech5="INVISION"
+          slash5="//"
+          tech6="KEYNOTE"
+          slash6=""
+          tech7=""
+          slash7=""
+        />
       </Box2>
       <Box3>
         <ProjectAboutLanding about="AKQA is a digital agency that specialises in creating digital services and products." />

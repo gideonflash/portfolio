@@ -56,35 +56,46 @@ const Slash = styled.span`
   margin-right: 10px;
 `;
 
-const RolesLandingList = () => (
+const RolesLandingList = props => (
   <div>
     <div>
       <RoleType>Tools & TechStack:</RoleType>
       <RoleLine />
       <div>
         <SkillsList>
-          <SkillsListItem dark>PRODUCT DESIGN</SkillsListItem>
+          <SkillsListItem dark>{props.tech1}</SkillsListItem>
           <Slash>
-            <SkillsListItem red>//</SkillsListItem>
+            <SkillsListItem red>{props.slash1}</SkillsListItem>
           </Slash>
-          <SkillsListItem>WEB AND MOBILE UI DESIGN</SkillsListItem>
+          <SkillsListItem>{props.tech2}</SkillsListItem>
           <Slash>
-            <SkillsListItem red>//</SkillsListItem>
+            <SkillsListItem red>{props.slash2}</SkillsListItem>
           </Slash>
 
-          <br />
-          <SkillsListItem>SKETCH</SkillsListItem>
-          <Slash>
-            <SkillsListItem red>//</SkillsListItem>
-          </Slash>
-          <SkillsListItem>PRINCIPLE & FLINTO</SkillsListItem>
-          <Slash>
-            <SkillsListItem red>//</SkillsListItem>
-          </Slash>
-          <SkillsListItem dark>HTML, CSS, JAVSSCRIPT</SkillsListItem>
-          <br />
+          <SkillsListItem>{props.tech3}</SkillsListItem>
 
-          <SkillsListItem>NODE.JS & EXPRESS</SkillsListItem>
+          <Slash>
+            <SkillsListItem red>{props.slash3}</SkillsListItem>
+          </Slash>
+          <br />
+          <SkillsListItem>{props.tech4}</SkillsListItem>
+          <Slash>
+            <SkillsListItem red>{props.slash4}</SkillsListItem>
+          </Slash>
+          <SkillsListItem dark>{props.tech5}</SkillsListItem>
+
+          <Slash>
+            <SkillsListItem red>{props.slash5}</SkillsListItem>
+          </Slash>
+
+          <SkillsListItem>{props.tech6}</SkillsListItem>
+          <Slash>
+            <SkillsListItem red>{props.slash6}</SkillsListItem>
+          </Slash>
+          <SkillsListItem>{props.tech7}</SkillsListItem>
+          <Slash>
+            <SkillsListItem red>{props.slash7}</SkillsListItem>
+          </Slash>
         </SkillsList>
       </div>
     </div>

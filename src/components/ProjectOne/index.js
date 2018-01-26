@@ -91,6 +91,9 @@ const ViewCaseStudyLink = styled(Link)`
   color: #433d3d;
   letter-spacing: 1.63px;
   text-decoration: none;
+  &:hover {
+    color: #b4211e;
+  }
 `;
 const Grid = styled.div`
   display: grid;
@@ -189,10 +192,25 @@ const LandingProjectOne = props => (
         <ProjectTypeLanding />
       </Box1>
       <Box2>
-        <RolesLandingList />
+        <RolesLandingList
+          tech1="JAVSSCRIPT, HTML & CSS"
+          slash1="//"
+          tech2="JQUERY"
+          slash2="//"
+          tech3="GIT/GITHUB"
+          slash3="//"
+          tech4="CHARTIS.JS"
+          slash4="//"
+          tech5="SKETCH"
+          slash5="//"
+          tech6="INVISION"
+          slash6="//"
+          tech7="KEYNOTE"
+          slash7=""
+        />
       </Box2>
       <Box3>
-        <ProjectAboutLanding about="Voguepay represents one of the few companies in Africa leading the charger in creating better payment services for Africans. With over 100 000 customers and millions in processed in transactions they continue to grow. " />
+        <ProjectAboutLanding about="Voguepay represents one of the few companies in Africa leading the charge in creating better payment services for Africans. " />
       </Box3>
     </ProjectContainer>
     <ProjectTileContianer>

@@ -91,6 +91,9 @@ const ViewCaseStudyLink = styled(Link)`
   color: #433d3d;
   letter-spacing: 1.63px;
   text-decoration: none;
+  &:hover {
+    color: #b4211e;
+  }
 `;
 const Grid = styled.div`
   display: grid;
@@ -189,10 +192,25 @@ const LandingProjectThree = props => (
         <ProjectTypeLanding />
       </Box1>
       <Box2>
-        <RolesLandingList />
+        <RolesLandingList
+          tech1="JAVSSCRIPT, HTML & CSS"
+          slash1="//"
+          tech2="REACT.JS"
+          slash2="//"
+          tech3="WEBPACK"
+          slash3="//"
+          tech4="SKETCH"
+          slash4="//"
+          tech5="INVISION"
+          slash5="//"
+          tech6="KEYNOTE"
+          slash6=""
+          tech7=""
+          slash7=""
+        />
       </Box2>
       <Box3>
-        <ProjectAboutLanding about="Analytics Intelligence is a data analytics and artificial intelligence company that provides artificial intelligence software solutions through its unified analytics platform the AI Platform and digital assistant DATA solution for the enterprise ." />
+        <ProjectAboutLanding about="Analytics Intelligence is a data analytics and artificial intelligence company that provides artificial intelligence software solutions through its unified analytics platform for enterprise co-operations ." />
       </Box3>
     </ProjectContainer>
     <ProjectTileContianer>
