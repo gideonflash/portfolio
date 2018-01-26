@@ -2,9 +2,6 @@ import React from "react";
 import styled, { css } from "styled-components";
 import LinkedIn from "./images/LinkedIn";
 import GitHub from "./images/GitHub";
-import Medium from "./images/Medium";
-import Behance from "./images/Behance";
-import Dribble from "./images/Dribble";
 
 const Section = styled.div`
   width: 1024px;
@@ -191,11 +188,11 @@ const SectionTwo = () => (
         </ProfileText>
         <ProfileText>
           So it can never be a surprise seeing me with a buddle of post-it notes
-          and sharpie iterating over ideas or using Sketch and Principle to
+          and sharpies iterating over ideas or using Sketch and Principle to
           tweak and create UI elements to implement in my front-end code base or
           better yet in atom employing my javascript skills to bring the designs
           to life. All in all, I am UI engineer who thrives on creating
-          interfaces that provide value; meaning performance, usability and ease
+          interfaces that provide value meaning; performance, usability and ease
           of use(pardon the buzz word bingo there" I really mean it though") are
           top priorities in ensuring products and services deliver on their
           intended value proposition. If you feel I might be a good fit for your
@@ -212,6 +209,14 @@ const SectionTwo = () => (
         <div>
           <ContactMe>Skills:</ContactMe>
           <SkillsList>
+            <SkillsListItem dark>HTML, CSS, JAVSSCRIPT</SkillsListItem>
+            <Slash>
+              <SkillsListItem red>//</SkillsListItem>
+            </Slash>
+            <SkillsListItem>NODE.JS & EXPRESS</SkillsListItem>
+            <Slash>
+              <SkillsListItem red>//</SkillsListItem>
+            </Slash>
             <SkillsListItem dark>PRODUCT DESIGN</SkillsListItem>
             <Slash>
               <SkillsListItem red>//</SkillsListItem>
@@ -234,14 +239,7 @@ const SectionTwo = () => (
             <Slash>
               <SkillsListItem red>//</SkillsListItem>
             </Slash>
-            <SkillsListItem dark>HTML, CSS, JAVSSCRIPT</SkillsListItem>
-            <Slash>
-              <SkillsListItem red>//</SkillsListItem>
-            </Slash>
-            <SkillsListItem>NODE.JS & EXPRESS</SkillsListItem>
-            <Slash>
-              <SkillsListItem red>//</SkillsListItem>
-            </Slash>
+
             <SkillsListItem dark>REACT.JS, APPOLLO & GRAPHQL</SkillsListItem>
           </SkillsList>
         </div>
