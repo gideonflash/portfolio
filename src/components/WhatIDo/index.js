@@ -42,7 +42,7 @@ const WhatIDoSection = () => (
   <WhatIDoContainer>
     <TapeText>WHAT I DO TAPE 1:</TapeText>
     <WhatIDo>
-      PRODUCT <Red>DESIGN</Red> FRONT-END <Red>DEVLOPMENT </Red> AND
+      FRONT-END <Red>DEVLOPMENT </Red> AND
       <Red>LONG WALKS</Red> IN THE PARK
     </WhatIDo>
   </WhatIDoContainer>

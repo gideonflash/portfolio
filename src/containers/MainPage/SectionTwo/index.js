@@ -89,7 +89,7 @@ const ProfileText = styled.p`
 const SkillsList = styled.ul`
   list-style-type: none;
   padding-left: 0;
-  margin-top: 50px;
+  margin-top: 15px;
 `;
 
 const SkillsListItem = styled.li`
@@ -145,6 +145,28 @@ const SocialListItems = styled.li`
   margin-right: 20px;
 `;
 
+const ContactMe = styled.p`
+  font-family: SanFranciscoText-Bold;
+  font-size: 12px;
+  color: #433d3d;
+  margin-top: 36px;
+  letter-spacing: 1.4px;
+`;
+const Email = styled.a`
+  font-family: Futura-Bold;
+  font-size: 14px;
+  color: #443d3d;
+  font-weight: normal;
+`;
+const PhoneNumber = styled.p`
+  font-family: Futura-Bold;
+  font-size: 14px;
+  color: #443d3d;
+  font-weight: normal;
+`;
+
+const LinkedInLink = styled.a``;
+
 const SectionTwo = () => (
   <Section>
     <SectionTwoHeader>a snapshot view</SectionTwoHeader>
@@ -180,6 +202,12 @@ const SectionTwo = () => (
           company lets chat or grab a coffee.
         </ProfileText>
         <div>
+          <ContactMe>Contact me:</ContactMe>
+          <Email>gideonkadzura@gmail.com</Email>
+          <PhoneNumber>07480 134 176</PhoneNumber>
+        </div>
+        <div>
+          <ContactMe>Skills:</ContactMe>
           <SkillsList>
             <SkillsListItem dark>PRODUCT DESIGN</SkillsListItem>
             <Slash>
@@ -217,19 +245,20 @@ const SectionTwo = () => (
         <SocialContianer>
           <SocialUl>
             <SocialListItems>
-              <LinkedIn />
+              <LinkedInLink
+                href="https://www.linkedin.com/in/gideonkadzura/ "
+                target="_blank"
+              >
+                <LinkedIn />
+              </LinkedInLink>
             </SocialListItems>
             <SocialListItems>
-              <GitHub />
-            </SocialListItems>
-            <SocialListItems>
-              <Medium iconBackground="#443D3D" />
-            </SocialListItems>
-            <SocialListItems>
-              <Dribble />
-            </SocialListItems>
-            <SocialListItems>
-              <Behance />
+              <LinkedInLink
+                href="https://github.com/gideonflash"
+                target="_blank"
+              >
+                <GitHub />
+              </LinkedInLink>
             </SocialListItems>
           </SocialUl>
         </SocialContianer>

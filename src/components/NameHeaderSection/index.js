@@ -61,7 +61,7 @@ const Skill3 = styled.p`
   color: #ffffff;
   letter-spacing: 0;
   display: inline-block;
-  margin-left: 46px;
+  margin-left: 51px;
   margin-bottom: 0;
   @media (max-width: 420px) {
     margin-left: 10px;

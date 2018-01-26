@@ -52,9 +52,9 @@ const Title = () => (
   <LandingMainText>
     <MainText />
     <MainText>
-      PRODUCT<br /> <Red> DESIGNER </Red>
-      <White> AND </White>
-      <br />FRONT-END DEVLOPER
+      <White>FRONT</White>-END
+      <br />
+      <White>DEVELOPER</White>
     </MainText>
   </LandingMainText>
 );
