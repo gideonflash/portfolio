@@ -38,7 +38,7 @@ const SectionTop = () => (
       slash6="//"
       stack7="GitHub"
       slash7="//"
-      stack8="Chartis.js"
+      stack8="Chartist.js"
     />
   </SectionOne>
 );

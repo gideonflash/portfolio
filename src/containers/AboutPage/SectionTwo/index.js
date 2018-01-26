@@ -72,7 +72,7 @@ const SectionTwo = () => (
       </div>
       <div>
         <ValuePropText>
-          I would like to say<br /> something cool <br /> so sound super smart
+          The farm boy who<br /> loves everthing digital.
         </ValuePropText>
         <ProfileText>
           I am a farm boy at heart, the only thing I can never forget doing is

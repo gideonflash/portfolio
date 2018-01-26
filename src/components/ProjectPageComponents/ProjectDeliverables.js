@@ -39,7 +39,7 @@ const ProjectTypeItem = styled.p`
   letter-spacing: 1.4px;
 `;
 
-const ProjectDeliverables = () => (
+const ProjectDeliverables = props => (
   <div>
     <div>
       <ProjectType>Deliverables:</ProjectType>
@@ -48,16 +48,22 @@ const ProjectDeliverables = () => (
     <ProjectTypeListContianer>
       <List>
         <li>
-          <ProjectTypeItem>Investment Deck design and copy</ProjectTypeItem>
+          <ProjectTypeItem>{props.item1}</ProjectTypeItem>
         </li>
         <li>
-          <ProjectTypeItem>Brand Logo</ProjectTypeItem>
+          <ProjectTypeItem>{props.item2}</ProjectTypeItem>
         </li>
         <li>
-          <ProjectTypeItem>UI interface design</ProjectTypeItem>
+          <ProjectTypeItem>{props.item3}</ProjectTypeItem>
         </li>
         <li>
-          <ProjectTypeItem>Front-end development</ProjectTypeItem>
+          <ProjectTypeItem>{props.item4}</ProjectTypeItem>
+        </li>
+        <li>
+          <ProjectTypeItem>{props.item5}</ProjectTypeItem>
+        </li>
+        <li>
+          <ProjectTypeItem>{props.item6}</ProjectTypeItem>
         </li>
       </List>
     </ProjectTypeListContianer>

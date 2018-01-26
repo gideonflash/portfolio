@@ -41,7 +41,14 @@ const SectionTwo = () => (
   <Section>
     <ContentContainer>
       <DeliverablecContianer>
-        <ProjectDeliverables />
+        <ProjectDeliverables
+          item1="User research"
+          item2="Wire-framing"
+          item3="Prototypes"
+          item4="Experiance maps"
+          item5="Platforms analysis"
+          item6="Pitching and storytelling"
+        />
       </DeliverablecContianer>
       <DesignChallenge2
         headertextOne="Creating products and services"
